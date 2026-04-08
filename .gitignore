@@ -1,0 +1,4 @@
+# Ignore generated outputs in any outputs folder
+**/outputs/**
+/venv/
+.env

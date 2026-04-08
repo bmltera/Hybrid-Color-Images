@@ -1,0 +1,12 @@
+# torch, torchvision, and torchaudio must be installed with the correct CUDA version using:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+
+diffusers
+transformers<5.0.0
+safetensors
+sentencepiece
+accelerate
+bitsandbytes
+einops
+mediapy
+git+https://github.com/dangeng/visual_anagrams.git
