@@ -29,7 +29,6 @@ export const goodExamples = [
   { id: '0003', grey: 'bottle', color: 'bird', quality: 'M' },
   { id: '0010', grey: 'trumpet', color: 'fox', quality: 'H' },
   { id: '0015', grey: 'guitar', color: 'frog', quality: 'H' },
-  { id: '0027', grey: 'piano', color: 'snail', quality: 'H' },
 ]
 
 // Bad examples: both entities visible, models struggle
@@ -37,7 +36,6 @@ export const badExamples = [
   { id: '0002', grey: 'violin', color: 'eagle', quality: 'L' },
   { id: '0100', grey: 'mushroom', color: 'manatee', quality: 'L' },
   { id: '0117', grey: 'vase', color: 'iguana', quality: 'M' },
-  { id: '0196', grey: 'candle', color: 'fish', quality: 'L' },
 ]
 
 export const qualityTiers = [

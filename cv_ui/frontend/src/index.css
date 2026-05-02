@@ -414,6 +414,8 @@ img {
   position: absolute;
   top: 0;
   left: 0;
+  pointer-events: none;
+  -webkit-user-drag: none;
 }
 
 .comparison-wrapper .color-img {
@@ -538,6 +540,8 @@ img {
   aspect-ratio: 1;
   overflow: hidden;
   cursor: ew-resize;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 .showcase-item .showcase-image-wrap img {
@@ -547,6 +551,8 @@ img {
   position: absolute;
   top: 0;
   left: 0;
+  pointer-events: none;
+  -webkit-user-drag: none;
 }
 
 .showcase-item .showcase-image-wrap .color-img {

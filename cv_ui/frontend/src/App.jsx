@@ -69,10 +69,6 @@ function Hero() {
               <div className="hero-stat-value">177</div>
               <div className="hero-stat-label">Image Pairs</div>
             </div>
-            <div className="hero-stat">
-              <div className="hero-stat-value">3,879</div>
-              <div className="hero-stat-label">Predictions</div>
-            </div>
           </div>
         </FadeUp>
       </div>
