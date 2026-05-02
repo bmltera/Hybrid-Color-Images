@@ -1,0 +1,3226 @@
+{
+  "metadata": {
+    "total_pairs": 800,
+    "description": "Prompt pairs for Factorized Diffusion VLM color perception testing. Each pair has a greyscale-style prompt and a color-style prompt for hybrid image generation.",
+    "subsets": {
+      "easy": {
+        "count": 300,
+        "description": "Greyscale and color prompts use entirely different subjects. Maximum structural divergence. Tests basic color vs. structure signal separation."
+      },
+      "medium": {
+        "count": 300,
+        "description": "Same broad category (both animals, both nature, both architecture) but different species or scenes. Moderate structural overlap. Tests mid-level color/structure disentanglement."
+      },
+      "hard": {
+        "count": 200,
+        "description": "Same or very similar subject in both prompts, one in greyscale style and one in vivid color. Near-identical structure. Model must rely almost entirely on color signal."
+      }
+    }
+  },
+  "easy": [
+    {
+      "greyscale": "a charcoal sketch of a sleeping cat curled up",
+      "color": "a colorful painting of a tropical bouquet of flowers"
+    },
+    {
+      "greyscale": "a pencil drawing of a horse standing in a field",
+      "color": "a vivid painting of a kaleidoscope of butterflies"
+    },
+    {
+      "greyscale": "a charcoal sketch of a wolf howling at the moon",
+      "color": "a colorful painting of a vibrant coral reef"
+    },
+    {
+      "greyscale": "a pencil sketch of a rabbit sitting in grass",
+      "color": "a vivid painting of a field of sunflowers at noon"
+    },
+    {
+      "greyscale": "a charcoal drawing of a bear fishing in a river",
+      "color": "a colorful painting of a rainbow over a waterfall"
+    },
+    {
+      "greyscale": "a pencil drawing of a deer grazing in a meadow",
+      "color": "a vivid painting of a tropical bird of paradise flower"
+    },
+    {
+      "greyscale": "a charcoal sketch of an elephant walking",
+      "color": "a colorful painting of a Moroccan tile mosaic"
+    },
+    {
+      "greyscale": "a pencil sketch of a giraffe in a savanna",
+      "color": "a vibrant painting of a bioluminescent ocean at night"
+    },
+    {
+      "greyscale": "a charcoal drawing of a frog on a lily pad",
+      "color": "a colorful painting of a carnival float with streamers"
+    },
+    {
+      "greyscale": "a pencil sketch of a turtle on a rock",
+      "color": "a vivid painting of a hot air balloon festival"
+    },
+    {
+      "greyscale": "a charcoal sketch of a crow on a fence post",
+      "color": "a colorful painting of a peacock displaying its tail"
+    },
+    {
+      "greyscale": "a pencil drawing of a snake coiled on a log",
+      "color": "a vivid painting of a field of poppies in bloom"
+    },
+    {
+      "greyscale": "a charcoal sketch of a monkey hanging from a branch",
+      "color": "a colorful painting of a stained glass cathedral window"
+    },
+    {
+      "greyscale": "a pencil drawing of a crab on the beach",
+      "color": "a vivid painting of a neon-lit city at night"
+    },
+    {
+      "greyscale": "a charcoal sketch of a squirrel gathering nuts",
+      "color": "a colorful painting of tropical fish on a reef"
+    },
+    {
+      "greyscale": "a pencil sketch of a hedgehog in leaves",
+      "color": "a vivid painting of a cherry blossom festival"
+    },
+    {
+      "greyscale": "a charcoal sketch of a seal on a rock",
+      "color": "a colorful painting of fireworks over a harbor"
+    },
+    {
+      "greyscale": "a pencil drawing of a swan on a calm lake",
+      "color": "a vivid painting of a spice market in Marrakesh"
+    },
+    {
+      "greyscale": "a charcoal sketch of a bat hanging upside down",
+      "color": "a colorful painting of a parrot flock in the Amazon"
+    },
+    {
+      "greyscale": "a pencil drawing of a dragonfly hovering",
+      "color": "a vivid painting of a koi pond with lotus flowers"
+    },
+    {
+      "greyscale": "a charcoal sketch of a medieval cathedral",
+      "color": "a colorful painting of an autumn forest in full foliage"
+    },
+    {
+      "greyscale": "a pencil drawing of a suspension bridge in fog",
+      "color": "a vivid painting of a field of lavender in Provence"
+    },
+    {
+      "greyscale": "a charcoal sketch of an old windmill on a hill",
+      "color": "a colorful painting of a tropical jungle at dawn"
+    },
+    {
+      "greyscale": "a pencil sketch of a lighthouse on a cliff",
+      "color": "a vivid painting of a garden of roses in summer"
+    },
+    {
+      "greyscale": "a charcoal drawing of a stone castle ruin",
+      "color": "a colorful painting of the Northern Lights over a snowy plain"
+    },
+    {
+      "greyscale": "a pencil sketch of a farmhouse in rolling hills",
+      "color": "a vivid painting of a psychedelic mushroom forest"
+    },
+    {
+      "greyscale": "a charcoal sketch of a wooden barn in snow",
+      "color": "a colorful painting of a monarch butterfly migration"
+    },
+    {
+      "greyscale": "a pencil drawing of a Roman aqueduct",
+      "color": "a vivid painting of a rainbow eucalyptus forest"
+    },
+    {
+      "greyscale": "a charcoal sketch of a pagoda in the mist",
+      "color": "a colorful painting of a field of tulips in Holland"
+    },
+    {
+      "greyscale": "a pencil drawing of a covered wooden bridge",
+      "color": "a vivid painting of a mangrove forest at sunset"
+    },
+    {
+      "greyscale": "a charcoal sketch of a vintage lantern on a wall",
+      "color": "a colorful painting of a Holi festival with powdered dyes"
+    },
+    {
+      "greyscale": "a pencil drawing of an old bicycle leaning on a fence",
+      "color": "a vivid painting of a Rio de Janeiro carnival parade"
+    },
+    {
+      "greyscale": "a charcoal sketch of an anchor on a dock",
+      "color": "a colorful painting of a Venetian canal at dusk"
+    },
+    {
+      "greyscale": "a pencil sketch of a teapot on a wooden table",
+      "color": "a vivid painting of a Chinese lantern festival"
+    },
+    {
+      "greyscale": "a charcoal drawing of an hourglass",
+      "color": "a colorful painting of a Mexican Day of the Dead altar"
+    },
+    {
+      "greyscale": "a pencil sketch of a rocking chair on a porch",
+      "color": "a vivid painting of a night market in Bangkok"
+    },
+    {
+      "greyscale": "a charcoal sketch of a mailbox at the end of a lane",
+      "color": "a colorful painting of a street fair in Havana"
+    },
+    {
+      "greyscale": "a pencil drawing of a vintage gramophone",
+      "color": "a vivid painting of a Mardi Gras parade"
+    },
+    {
+      "greyscale": "a charcoal sketch of a rowboat tied to a pier",
+      "color": "a colorful painting of an Indian flower market"
+    },
+    {
+      "greyscale": "a pencil sketch of a stack of old books",
+      "color": "a vivid painting of a aurora borealis over mountains"
+    },
+    {
+      "greyscale": "a charcoal sketch of a snow-covered valley",
+      "color": "a colorful painting of a macaw perched in a rainforest"
+    },
+    {
+      "greyscale": "a pencil drawing of sand dunes in a desert",
+      "color": "a vivid painting of a mandarin duck on a pond"
+    },
+    {
+      "greyscale": "a charcoal sketch of a foggy moor at dawn",
+      "color": "a colorful painting of a toucan eating tropical fruit"
+    },
+    {
+      "greyscale": "a pencil sketch of a rocky canyon",
+      "color": "a vivid painting of a flamingo colony at sunset"
+    },
+    {
+      "greyscale": "a charcoal drawing of a bare winter forest",
+      "color": "a colorful painting of a blue morpho butterfly on a flower"
+    },
+    {
+      "greyscale": "a pencil drawing of ocean waves crashing on rocks",
+      "color": "a vivid painting of a golden poison dart frog"
+    },
+    {
+      "greyscale": "a charcoal sketch of a swamp at twilight",
+      "color": "a colorful painting of a chameleon on a tropical leaf"
+    },
+    {
+      "greyscale": "a pencil sketch of a frozen waterfall",
+      "color": "a vivid painting of a rainbow lorikeet in a garden"
+    },
+    {
+      "greyscale": "a charcoal drawing of a rice paddy field",
+      "color": "a colorful painting of a clownfish in sea anemone"
+    },
+    {
+      "greyscale": "a pencil sketch of rolling farmland from above",
+      "color": "a vivid painting of a scarlet macaw flock in flight"
+    },
+    {
+      "greyscale": "a charcoal sketch of a vintage clock tower",
+      "color": "a colorful painting of a peacock feather close-up"
+    },
+    {
+      "greyscale": "a pencil drawing of a mountain goat on a ledge",
+      "color": "a vivid painting of a sunset over the Sahara"
+    },
+    {
+      "greyscale": "a charcoal sketch of a spider web with morning dew",
+      "color": "a colorful painting of a Santorini rooftop village"
+    },
+    {
+      "greyscale": "a pencil sketch of a mushroom in a forest",
+      "color": "a vivid painting of a coral garden underwater"
+    },
+    {
+      "greyscale": "a charcoal sketch of a hot air balloon silhouette",
+      "color": "a colorful painting of a tropical fish school"
+    },
+    {
+      "greyscale": "a pencil drawing of a lone tree on a hill",
+      "color": "a vivid painting of a festival of lights in India"
+    },
+    {
+      "greyscale": "a charcoal sketch of a small stone chapel",
+      "color": "a colorful painting of a Hawaiian sunset with surfers"
+    },
+    {
+      "greyscale": "a pencil sketch of a pine cone on the ground",
+      "color": "a vivid painting of a psychedelic jellyfish"
+    },
+    {
+      "greyscale": "a charcoal drawing of a fishing boat on shore",
+      "color": "a colorful painting of a rainbow of spice jars"
+    },
+    {
+      "greyscale": "a pencil sketch of a pair of boots in the mud",
+      "color": "a vivid painting of a flower parade in bloom"
+    },
+    {
+      "greyscale": "a charcoal sketch of a lighthouse at night",
+      "color": "a colorful painting of a bird of paradise garden"
+    },
+    {
+      "greyscale": "a pencil drawing of an old iron gate",
+      "color": "a vivid painting of a kite festival over a meadow"
+    },
+    {
+      "greyscale": "a charcoal sketch of a tractor in a field",
+      "color": "a colorful painting of a reef at low tide"
+    },
+    {
+      "greyscale": "a pencil sketch of a cow in a barn",
+      "color": "a vivid painting of a bioluminescent bay at night"
+    },
+    {
+      "greyscale": "a charcoal drawing of a water tower in a field",
+      "color": "a colorful painting of a rainbow macaw flock"
+    },
+    {
+      "greyscale": "a pencil sketch of a campfire at night",
+      "color": "a vivid painting of a rose garden in full bloom"
+    },
+    {
+      "greyscale": "a charcoal sketch of a wooden fence in snow",
+      "color": "a colorful painting of a tropical reef at high tide"
+    },
+    {
+      "greyscale": "a pencil drawing of a church in a village",
+      "color": "a vivid painting of a butterfly conservatory"
+    },
+    {
+      "greyscale": "a charcoal sketch of a rusted gate in a garden",
+      "color": "a colorful painting of a Oaxacan street mural"
+    },
+    {
+      "greyscale": "a pencil drawing of a windswept tree on a cliff",
+      "color": "a vivid painting of a tropical bird market"
+    },
+    {
+      "greyscale": "a charcoal sketch of a dock extending into fog",
+      "color": "a colorful painting of a Dia de los Muertos altar"
+    },
+    {
+      "greyscale": "a pencil sketch of a stone wall in a field",
+      "color": "a vivid painting of a neon-soaked cityscape at midnight"
+    },
+    {
+      "greyscale": "a charcoal drawing of an old well in a courtyard",
+      "color": "a colorful painting of an underwater kelp forest"
+    },
+    {
+      "greyscale": "a pencil sketch of a windmill reflected in a canal",
+      "color": "a vivid painting of a wildflower prairie at sunset"
+    },
+    {
+      "greyscale": "a charcoal sketch of a scarecrow in a cornfield",
+      "color": "a colorful painting of a hummingbird feeding on a flower"
+    },
+    {
+      "greyscale": "a pencil drawing of a lighthouse keeper's cottage",
+      "color": "a vivid painting of a sea of tulips from above"
+    },
+    {
+      "greyscale": "a charcoal sketch of a stone staircase in a forest",
+      "color": "a colorful painting of a tropical forest canopy"
+    },
+    {
+      "greyscale": "a pencil sketch of a horse-drawn carriage",
+      "color": "a vivid painting of a rainbow after a storm"
+    },
+    {
+      "greyscale": "a charcoal sketch of a water mill by a stream",
+      "color": "a colorful painting of a puffin colony on a cliff"
+    },
+    {
+      "greyscale": "a pencil drawing of a vineyard in winter",
+      "color": "a vivid painting of a parrot jungle at sunrise"
+    },
+    {
+      "greyscale": "a charcoal sketch of geometric cubes stacked",
+      "color": "a colorful painting of a field of wildflowers"
+    },
+    {
+      "greyscale": "a pencil drawing of concentric circles",
+      "color": "a vivid painting of a peacock in a garden"
+    },
+    {
+      "greyscale": "a charcoal sketch of tangled wire forms",
+      "color": "a colorful painting of tropical fruit in a bowl"
+    },
+    {
+      "greyscale": "a pencil sketch of crumpled paper",
+      "color": "a vivid painting of a rainbow of exotic birds"
+    },
+    {
+      "greyscale": "a charcoal drawing of interlocking spirals",
+      "color": "a colorful painting of a vibrant mosaic street"
+    },
+    {
+      "greyscale": "a pencil drawing of a shattered mirror",
+      "color": "a vivid painting of a festival lantern release"
+    },
+    {
+      "greyscale": "a charcoal sketch of a wavy horizon line",
+      "color": "a colorful painting of tropical parrots in a canopy"
+    },
+    {
+      "greyscale": "a pencil sketch of a tangled ball of string",
+      "color": "a vivid painting of a painted desert landscape"
+    },
+    {
+      "greyscale": "a charcoal drawing of overlapping circles",
+      "color": "a colorful painting of a market full of flowers"
+    },
+    {
+      "greyscale": "a pencil sketch of a jagged lightning bolt pattern",
+      "color": "a vivid painting of a reef teeming with colorful fish"
+    },
+    {
+      "greyscale": "a charcoal sketch of a person reading under a tree",
+      "color": "a colorful painting of a macaw feeding on berries"
+    },
+    {
+      "greyscale": "a pencil drawing of a child flying a kite",
+      "color": "a vivid painting of an underwater coral garden"
+    },
+    {
+      "greyscale": "a charcoal sketch of a silhouette of a dancer",
+      "color": "a colorful painting of a blooming cherry orchard"
+    },
+    {
+      "greyscale": "a pencil sketch of two figures on a park bench",
+      "color": "a vivid painting of a Northern Lights reflection in water"
+    },
+    {
+      "greyscale": "a charcoal drawing of a fisherman on a pier",
+      "color": "a colorful painting of a bird of paradise forest"
+    },
+    {
+      "greyscale": "a pencil drawing of a market vendor arranging goods",
+      "color": "a vivid painting of a glowing tide pool"
+    },
+    {
+      "greyscale": "a charcoal sketch of a figure walking in the rain",
+      "color": "a colorful painting of a rainbow over the ocean"
+    },
+    {
+      "greyscale": "a pencil sketch of a farmer in a field",
+      "color": "a vivid painting of a peacock strutting in a palace garden"
+    },
+    {
+      "greyscale": "a charcoal drawing of a rower on a foggy river",
+      "color": "a colorful painting of monarch butterflies on milkweed"
+    },
+    {
+      "greyscale": "a pencil sketch of a shepherd with a flock",
+      "color": "a vivid painting of a field of golden sunflowers"
+    },
+    {
+      "greyscale": "a charcoal sketch of storm clouds over a plain",
+      "color": "a colorful painting of a Holi color powder explosion"
+    },
+    {
+      "greyscale": "a pencil drawing of fog rolling over a harbor",
+      "color": "a vivid painting of a fireworks display over a bay"
+    },
+    {
+      "greyscale": "a charcoal sketch of snow falling on a city street",
+      "color": "a colorful painting of a Day of the Dead procession"
+    },
+    {
+      "greyscale": "a pencil sketch of rain on a window pane",
+      "color": "a vivid painting of a Brazilian Carnival parade"
+    },
+    {
+      "greyscale": "a charcoal drawing of ice forming on a branch",
+      "color": "a colorful painting of a Diwali light festival"
+    },
+    {
+      "greyscale": "a pencil sketch of mist over a mountain lake",
+      "color": "a vivid painting of a Mardi Gras costume parade"
+    },
+    {
+      "greyscale": "a charcoal sketch of wind bending tall grass",
+      "color": "a colorful painting of a kite festival in a blue sky"
+    },
+    {
+      "greyscale": "a pencil drawing of lightning over a cityscape",
+      "color": "a vivid painting of a lantern release over a river"
+    },
+    {
+      "greyscale": "a charcoal sketch of hailstones on a roof",
+      "color": "a colorful painting of a street mural in Mexico City"
+    },
+    {
+      "greyscale": "a pencil drawing of a sunrise silhouette over mountains",
+      "color": "a vivid painting of a rainbow of hot air balloons"
+    },
+    {
+      "greyscale": "a charcoal sketch of a loaf of bread on a table",
+      "color": "a colorful painting of a parrot in a jungle clearing"
+    },
+    {
+      "greyscale": "a pencil drawing of a bowl of fruit in shadow",
+      "color": "a vivid painting of a reef shark among coral"
+    },
+    {
+      "greyscale": "a charcoal sketch of a wine glass on a countertop",
+      "color": "a colorful painting of a tropical sunset with dolphins"
+    },
+    {
+      "greyscale": "a pencil sketch of an empty birdcage",
+      "color": "a vivid painting of a garden full of hummingbirds"
+    },
+    {
+      "greyscale": "a charcoal drawing of a clay pot on a shelf",
+      "color": "a colorful painting of a flock of flamingos at sunrise"
+    },
+    {
+      "greyscale": "a pencil drawing of a candle in a dark room",
+      "color": "a vivid painting of a tropical beach at high noon"
+    },
+    {
+      "greyscale": "a charcoal sketch of a broom against a wall",
+      "color": "a colorful painting of a chameleon in a rainforest"
+    },
+    {
+      "greyscale": "a pencil sketch of a suitcase on a platform",
+      "color": "a vivid painting of a peacock tail spread in a garden"
+    },
+    {
+      "greyscale": "a charcoal drawing of a bucket in a courtyard",
+      "color": "a colorful painting of a poison dart frog on a leaf"
+    },
+    {
+      "greyscale": "a pencil drawing of a fishing net on a dock",
+      "color": "a vivid painting of a toucan perched in dense foliage"
+    },
+    {
+      "greyscale": "a charcoal sketch of a wheelbarrow in a garden",
+      "color": "a colorful painting of a coral ecosystem at full tide"
+    },
+    {
+      "greyscale": "a pencil sketch of a pair of glasses on a book",
+      "color": "a vivid painting of a rainbow after a storm at sea"
+    },
+    {
+      "greyscale": "a charcoal drawing of a crumpled map on a desk",
+      "color": "a colorful painting of a field of wildflowers in bloom"
+    },
+    {
+      "greyscale": "a pencil sketch of an acorn on the ground",
+      "color": "a vivid painting of a koi pond covered in lily pads"
+    },
+    {
+      "greyscale": "a charcoal sketch of a key hanging on a hook",
+      "color": "a colorful painting of a royal blue macaw mid-flight"
+    },
+    {
+      "greyscale": "a pencil drawing of a bird nest in a tree fork",
+      "color": "a vivid painting of a field of red poppies in France"
+    },
+    {
+      "greyscale": "a charcoal sketch of a cobblestone alley",
+      "color": "a colorful painting of tropical jellyfish in the open ocean"
+    },
+    {
+      "greyscale": "a pencil sketch of a coin on a table",
+      "color": "a vivid painting of a pink flamingo in a salt lake"
+    },
+    {
+      "greyscale": "a charcoal drawing of a cracked eggshell",
+      "color": "a colorful painting of a Bengal tiger in lush green jungle"
+    },
+    {
+      "greyscale": "a pencil drawing of a footprint in sand",
+      "color": "a vivid painting of an aurora borealis over Iceland"
+    },
+    {
+      "greyscale": "a charcoal sketch of a knotted rope on a post",
+      "color": "a colorful painting of a garden of orchids in bloom"
+    },
+    {
+      "greyscale": "a pencil sketch of a feather on a stone",
+      "color": "a vivid painting of a sunset over the Maldives"
+    },
+    {
+      "greyscale": "a charcoal drawing of a thumbtack on a corkboard",
+      "color": "a colorful painting of a tropical butterfly garden"
+    },
+    {
+      "greyscale": "a pencil sketch of a dried leaf on pavement",
+      "color": "a vivid painting of a rainbow over Niagara Falls"
+    },
+    {
+      "greyscale": "a charcoal sketch of a paperclip on white paper",
+      "color": "a colorful painting of an Amazon river dolphin"
+    },
+    {
+      "greyscale": "a pencil drawing of a needle and thread",
+      "color": "a vivid painting of a blooming cherry blossom park in Japan"
+    },
+    {
+      "greyscale": "a charcoal sketch of a matchstick on a surface",
+      "color": "a colorful painting of a neon reef with manta rays"
+    },
+    {
+      "greyscale": "a pencil sketch of a thumbscrew tool on a workbench",
+      "color": "a vivid painting of a sunrise over the Grand Canyon"
+    },
+    {
+      "greyscale": "a charcoal drawing of a rubber band on a table",
+      "color": "a colorful painting of a hummingbird in a tropical garden"
+    },
+    {
+      "greyscale": "a pencil sketch of a safety pin on fabric",
+      "color": "a vivid painting of a bright macaw in a cloud forest"
+    },
+    {
+      "greyscale": "a charcoal sketch of a silhouetted city skyline",
+      "color": "a colorful painting of a reef full of sea turtles"
+    },
+    {
+      "greyscale": "a pencil drawing of a silhouette of a bird in flight",
+      "color": "a vivid painting of a meadow of poppies and cornflowers"
+    },
+    {
+      "greyscale": "a charcoal sketch of shadows of leaves on a wall",
+      "color": "a colorful painting of a tropical sunrise over the ocean"
+    },
+    {
+      "greyscale": "a pencil sketch of a shadow of a bicycle on ground",
+      "color": "a vivid painting of a rainbow fish darting through coral"
+    },
+    {
+      "greyscale": "a charcoal drawing of a tree silhouette at dusk",
+      "color": "a colorful painting of a flamingo colony wading at dawn"
+    },
+    {
+      "greyscale": "a pencil drawing of a silhouette of a lighthouse",
+      "color": "a vivid painting of a garden of dahlias in full bloom"
+    },
+    {
+      "greyscale": "a charcoal sketch of a shadow of a fence on snow",
+      "color": "a colorful painting of a peacock in an English garden"
+    },
+    {
+      "greyscale": "a pencil sketch of the shadow of a church steeple",
+      "color": "a vivid painting of a school of neon tetras in a river"
+    },
+    {
+      "greyscale": "a charcoal drawing of silhouettes of trees in fog",
+      "color": "a colorful painting of a tropical flower market"
+    },
+    {
+      "greyscale": "a pencil sketch of a dancer's shadow on a stage",
+      "color": "a vivid painting of a parrot jungle at golden hour"
+    },
+    {
+      "greyscale": "a charcoal sketch of a wooden ladder in a barn",
+      "color": "a colorful painting of a sunrise over the Amazon"
+    },
+    {
+      "greyscale": "a pencil drawing of a twig on a forest floor",
+      "color": "a vivid painting of a blue-ringed octopus on coral"
+    },
+    {
+      "greyscale": "a charcoal sketch of a cracked clay pot",
+      "color": "a colorful painting of a garden of dahlias at midday"
+    },
+    {
+      "greyscale": "a pencil drawing of an old gate in the rain",
+      "color": "a vivid painting of a rainbow of tropical birds"
+    },
+    {
+      "greyscale": "a charcoal sketch of a brick chimney on a roof",
+      "color": "a colorful painting of a monarch butterfly field"
+    },
+    {
+      "greyscale": "a pencil drawing of an empty bird feeder in winter",
+      "color": "a vivid painting of a field of blooming lavender"
+    },
+    {
+      "greyscale": "a charcoal sketch of a shovel stuck in soil",
+      "color": "a colorful painting of a garden of roses at dawn"
+    },
+    {
+      "greyscale": "a pencil sketch of a garden gate in autumn",
+      "color": "a vivid painting of a rainbow over a tropical lagoon"
+    },
+    {
+      "greyscale": "a charcoal drawing of a row of fence posts in fog",
+      "color": "a colorful painting of a flock of rainbow lorikeets"
+    },
+    {
+      "greyscale": "a pencil drawing of a flagpole in the wind",
+      "color": "a vivid painting of a sea of anemones in an ocean trench"
+    },
+    {
+      "greyscale": "a charcoal sketch of an armchair by a window",
+      "color": "a colorful painting of a scarlet macaw in a rainforest"
+    },
+    {
+      "greyscale": "a pencil drawing of a kitchen table with chairs",
+      "color": "a vivid painting of a coral reef swarming with tropical fish"
+    },
+    {
+      "greyscale": "a charcoal sketch of a bookshelf against a wall",
+      "color": "a colorful painting of a monarch butterfly colony in Mexico"
+    },
+    {
+      "greyscale": "a pencil sketch of a bed in a simple room",
+      "color": "a vivid painting of a toucan pair in a cloud forest"
+    },
+    {
+      "greyscale": "a charcoal drawing of a staircase in a house",
+      "color": "a colorful painting of a hummingbird feeding on heliconia"
+    },
+    {
+      "greyscale": "a pencil drawing of a lamp on a side table",
+      "color": "a vivid painting of a peacock feather under a magnifying glass"
+    },
+    {
+      "greyscale": "a charcoal sketch of a piano in a dim room",
+      "color": "a colorful painting of a poison dart frog on a wet leaf"
+    },
+    {
+      "greyscale": "a pencil sketch of a fireplace with no fire",
+      "color": "a vivid painting of a clownfish in a sea anemone"
+    },
+    {
+      "greyscale": "a charcoal drawing of an empty coat rack",
+      "color": "a colorful painting of a rainbow lorikeet pair on a branch"
+    },
+    {
+      "greyscale": "a pencil drawing of a bathtub in a white room",
+      "color": "a vivid painting of a blue morpho butterfly in the Amazon"
+    },
+    {
+      "greyscale": "a charcoal sketch of garden shears on a bench",
+      "color": "a colorful painting of a sunflower field under blue sky"
+    },
+    {
+      "greyscale": "a pencil drawing of a hammer on a workbench",
+      "color": "a vivid painting of a field of California poppies"
+    },
+    {
+      "greyscale": "a charcoal sketch of a watering can on a path",
+      "color": "a colorful painting of a tropical sunrise over a lagoon"
+    },
+    {
+      "greyscale": "a pencil sketch of a fishing rod on a dock",
+      "color": "a vivid painting of a reef shark among colorful fish"
+    },
+    {
+      "greyscale": "a charcoal drawing of an old typewriter on a desk",
+      "color": "a colorful painting of a garden of dahlias in summer"
+    },
+    {
+      "greyscale": "a pencil drawing of a sewing machine on a table",
+      "color": "a vivid painting of a koi pond at cherry blossom season"
+    },
+    {
+      "greyscale": "a charcoal sketch of a paintbrush resting on a jar",
+      "color": "a colorful painting of a kaleidoscopic reef at full sun"
+    },
+    {
+      "greyscale": "a pencil sketch of a compass on a map",
+      "color": "a vivid painting of a tropical jungle at dawn"
+    },
+    {
+      "greyscale": "a charcoal drawing of a telescope on a tripod",
+      "color": "a colorful painting of the Milky Way over a mountain lake"
+    },
+    {
+      "greyscale": "a pencil drawing of a magnifying glass on paper",
+      "color": "a vivid painting of macro butterflies on tropical flowers"
+    },
+    {
+      "greyscale": "a charcoal sketch of a bicycle on a cobblestone street",
+      "color": "a colorful painting of a field of peonies in June"
+    },
+    {
+      "greyscale": "a pencil drawing of an old car in a garage",
+      "color": "a vivid painting of a rose garden in full bloom"
+    },
+    {
+      "greyscale": "a charcoal sketch of a canoe on a foggy shore",
+      "color": "a colorful painting of a bougainvillea waterfall"
+    },
+    {
+      "greyscale": "a pencil sketch of a sailboat in a grey harbour",
+      "color": "a vivid painting of a field of wildflowers in spring"
+    },
+    {
+      "greyscale": "a charcoal drawing of a tractor on a muddy path",
+      "color": "a colorful painting of a lavender maze in Provence"
+    },
+    {
+      "greyscale": "a pencil drawing of a train on a foggy track",
+      "color": "a vivid painting of a cherry blossom avenue in Japan"
+    },
+    {
+      "greyscale": "a charcoal sketch of a rowboat tied to a post",
+      "color": "a colorful painting of a tulip festival in bloom"
+    },
+    {
+      "greyscale": "a pencil sketch of a shopping cart in a parking lot",
+      "color": "a vivid painting of an orchid greenhouse in full bloom"
+    },
+    {
+      "greyscale": "a charcoal drawing of a wagon wheel in the mud",
+      "color": "a colorful painting of a bed of poppies and cornflowers"
+    },
+    {
+      "greyscale": "a pencil drawing of a wheelbarrow in the rain",
+      "color": "a vivid painting of a wisteria tunnel in full bloom"
+    },
+    {
+      "greyscale": "a charcoal sketch of a blackboard with writing",
+      "color": "a colorful painting of a scarlet tanager on a branch"
+    },
+    {
+      "greyscale": "a pencil drawing of a street sign on a corner",
+      "color": "a vivid painting of a mandarin duck in a Japanese garden"
+    },
+    {
+      "greyscale": "a charcoal sketch of a printed page of text",
+      "color": "a colorful painting of a blue-crowned motmot in the jungle"
+    },
+    {
+      "greyscale": "a pencil sketch of a numbered door on a street",
+      "color": "a vivid painting of a resplendent quetzal in cloud forest"
+    },
+    {
+      "greyscale": "a charcoal drawing of an old map on a table",
+      "color": "a colorful painting of a golden pheasant in autumn light"
+    },
+    {
+      "greyscale": "a pencil drawing of a newspaper on a doorstep",
+      "color": "a vivid painting of a Gouldian finch on a flowering branch"
+    },
+    {
+      "greyscale": "a charcoal sketch of a legal document on a desk",
+      "color": "a colorful painting of a painted bunting on a berry bush"
+    },
+    {
+      "greyscale": "a pencil sketch of a grocery receipt",
+      "color": "a vivid painting of a violet-backed starling in Africa"
+    },
+    {
+      "greyscale": "a charcoal drawing of a to-do list on a napkin",
+      "color": "a colorful painting of a rainbow bee-eater in Australia"
+    },
+    {
+      "greyscale": "a pencil drawing of a phone book on a shelf",
+      "color": "a vivid painting of a lilac-breasted roller in the savanna"
+    },
+    {
+      "greyscale": "a charcoal sketch of pebbles on a riverbed",
+      "color": "a colorful painting of a garden in full midsummer bloom"
+    },
+    {
+      "greyscale": "a pencil drawing of a granite boulder in a field",
+      "color": "a vivid painting of a cottage garden in July"
+    },
+    {
+      "greyscale": "a charcoal sketch of a pile of gravel",
+      "color": "a colorful painting of a flower farm at harvest"
+    },
+    {
+      "greyscale": "a pencil sketch of flint stones on a beach",
+      "color": "a vivid painting of a wildflower meadow in full bloom"
+    },
+    {
+      "greyscale": "a charcoal drawing of a quarry wall",
+      "color": "a colorful painting of a hanging garden of tropical plants"
+    },
+    {
+      "greyscale": "a pencil drawing of a stone path in a garden",
+      "color": "a vivid painting of a botanical garden at peak season"
+    },
+    {
+      "greyscale": "a charcoal sketch of a limestone cave interior",
+      "color": "a colorful painting of a jungle clearing with orchids"
+    },
+    {
+      "greyscale": "a pencil sketch of a basalt column formation",
+      "color": "a vivid painting of a meadow of alpine flowers"
+    },
+    {
+      "greyscale": "a charcoal drawing of sandstone layers in a cliff",
+      "color": "a colorful painting of a terraced hillside of flowers"
+    },
+    {
+      "greyscale": "a pencil drawing of a slate tile on a rooftop",
+      "color": "a vivid painting of a rooftop garden full of blooms"
+    },
+    {
+      "greyscale": "a charcoal sketch of an old wooden door",
+      "color": "a colorful painting of a toucan in a fruiting tree"
+    },
+    {
+      "greyscale": "a pencil drawing of a stump in a clearing",
+      "color": "a vivid painting of a garden of zinnias at peak summer"
+    },
+    {
+      "greyscale": "a charcoal sketch of a single wooden chair",
+      "color": "a colorful painting of a reef at low tide with starfish"
+    },
+    {
+      "greyscale": "a pencil sketch of a crumbling stone wall",
+      "color": "a vivid painting of an explosion of wildflowers in bloom"
+    },
+    {
+      "greyscale": "a charcoal drawing of a bare plank table",
+      "color": "a colorful painting of a blossom festival in full swing"
+    },
+    {
+      "greyscale": "a pencil drawing of an empty birdhouse",
+      "color": "a vivid painting of a tropical bird of paradise flower"
+    },
+    {
+      "greyscale": "a charcoal sketch of a plain wooden fence",
+      "color": "a colorful painting of a garden of dahlias at dusk"
+    },
+    {
+      "greyscale": "a pencil sketch of a plain cereal bowl",
+      "color": "a vivid painting of a fruit market in full color"
+    },
+    {
+      "greyscale": "a charcoal drawing of a blank canvas on an easel",
+      "color": "a colorful painting of a parrot flock at sunset"
+    },
+    {
+      "greyscale": "a pencil drawing of a folded piece of paper",
+      "color": "a vivid painting of a bee garden in midsummer"
+    },
+    {
+      "greyscale": "a charcoal sketch of a puddle reflecting bare trees",
+      "color": "a colorful painting of a reflection of autumn foliage"
+    },
+    {
+      "greyscale": "a pencil drawing of a grey pigeon on a ledge",
+      "color": "a vivid painting of a rainbow of exotic parrots"
+    },
+    {
+      "greyscale": "a charcoal sketch of a cracked asphalt road",
+      "color": "a colorful painting of a road lined with cherry blossoms"
+    },
+    {
+      "greyscale": "a pencil sketch of a grey concrete bridge",
+      "color": "a vivid painting of a bridge covered in bougainvillea"
+    },
+    {
+      "greyscale": "a charcoal drawing of a steel fence post",
+      "color": "a colorful painting of a garden gate covered in roses"
+    },
+    {
+      "greyscale": "a pencil drawing of a chain link fence",
+      "color": "a vivid painting of a garden wall covered in jasmine"
+    },
+    {
+      "greyscale": "a charcoal sketch of a corrugated iron shed",
+      "color": "a colorful painting of a brightly painted beach hut"
+    },
+    {
+      "greyscale": "a pencil sketch of an empty clothes line",
+      "color": "a vivid painting of colorful laundry on a line in Italy"
+    },
+    {
+      "greyscale": "a charcoal drawing of a plain park bench",
+      "color": "a colorful painting of a bench surrounded by blooms"
+    },
+    {
+      "greyscale": "a pencil drawing of a plain garden pot",
+      "color": "a vivid painting of a terracotta pot with bright flowers"
+    },
+    {
+      "greyscale": "a charcoal sketch of a broom closet door",
+      "color": "a colorful painting of a flower-covered greenhouse"
+    },
+    {
+      "greyscale": "a pencil drawing of a plain ceramic cup",
+      "color": "a vivid painting of a reef full of sea anemones"
+    },
+    {
+      "greyscale": "a charcoal sketch of a garden hose coiled on a path",
+      "color": "a colorful painting of a festival of giant flowers"
+    },
+    {
+      "greyscale": "a pencil sketch of a clothesline in winter",
+      "color": "a vivid painting of a market full of tropical fruits"
+    },
+    {
+      "greyscale": "a charcoal drawing of a door handle on a wall",
+      "color": "a colorful painting of a tropical bird sanctuary"
+    },
+    {
+      "greyscale": "a pencil drawing of an empty warehouse floor",
+      "color": "a vivid painting of a butterfly pavilion in summer"
+    },
+    {
+      "greyscale": "a charcoal sketch of a bus stop bench",
+      "color": "a colorful painting of a peacock garden in India"
+    },
+    {
+      "greyscale": "a pencil sketch of a concrete wall",
+      "color": "a vivid painting of a mural of tropical birds and flowers"
+    },
+    {
+      "greyscale": "a charcoal drawing of a metal stool in a kitchen",
+      "color": "a colorful painting of an underwater meadow of corals"
+    },
+    {
+      "greyscale": "a pencil drawing of a plain window frame",
+      "color": "a vivid painting of a garden seen through a rose arch"
+    },
+    {
+      "greyscale": "a charcoal sketch of a pile of coal",
+      "color": "a colorful painting of a field of California wildflowers"
+    },
+    {
+      "greyscale": "a pencil drawing of a roll of tape on a desk",
+      "color": "a vivid painting of a garden party in summer"
+    },
+    {
+      "greyscale": "a charcoal sketch of a grey pavement crack",
+      "color": "a colorful painting of flowers growing through pavement"
+    },
+    {
+      "greyscale": "a pencil sketch of a stack of plain tiles",
+      "color": "a vivid painting of a colorful mosaic garden path"
+    },
+    {
+      "greyscale": "a charcoal drawing of an iron post in the ground",
+      "color": "a colorful painting of a lamp post covered in roses"
+    },
+    {
+      "greyscale": "a pencil drawing of a flat desert horizon",
+      "color": "a vivid painting of a desert horizon at blazing sunset"
+    },
+    {
+      "greyscale": "a charcoal sketch of a plain brick wall",
+      "color": "a colorful painting of a brick wall covered in murals"
+    },
+    {
+      "greyscale": "a pencil sketch of an empty tin can",
+      "color": "a vivid painting of a garden of sunflowers in full bloom"
+    },
+    {
+      "greyscale": "a charcoal drawing of a plain cardboard box",
+      "color": "a colorful painting of a pi\u00f1ata exploding with color"
+    },
+    {
+      "greyscale": "a pencil drawing of a chain fence in fog",
+      "color": "a vivid painting of a fence covered in morning glories"
+    },
+    {
+      "greyscale": "a charcoal sketch of a grey paving stone",
+      "color": "a colorful painting of a painted paving mosaic"
+    },
+    {
+      "greyscale": "a pencil drawing of a plain wooden shelf",
+      "color": "a vivid painting of a shelf full of colorful ceramics"
+    },
+    {
+      "greyscale": "a charcoal sketch of a storm drain on a street",
+      "color": "a colorful painting of a stream through a flower meadow"
+    },
+    {
+      "greyscale": "a pencil sketch of a gravel path through a park",
+      "color": "a vivid painting of a garden path lined with peonies"
+    },
+    {
+      "greyscale": "a charcoal drawing of a blank chalkboard",
+      "color": "a colorful painting of a vivid botanical illustration"
+    },
+    {
+      "greyscale": "a pencil drawing of a grey tarpaulin",
+      "color": "a vivid painting of a painter's palette full of bright colors"
+    },
+    {
+      "greyscale": "a charcoal sketch of a plain sack of flour",
+      "color": "a colorful painting of a spice stall at a market"
+    },
+    {
+      "greyscale": "a pencil sketch of a bundle of sticks",
+      "color": "a vivid painting of a bouquet of tropical flowers"
+    },
+    {
+      "greyscale": "a charcoal drawing of a pile of grey stones",
+      "color": "a colorful painting of a mandala made of flowers"
+    },
+    {
+      "greyscale": "a pencil drawing of a weathered wooden sign",
+      "color": "a vivid painting of a painted sign in a garden"
+    },
+    {
+      "greyscale": "a charcoal sketch of a drain pipe on a building",
+      "color": "a colorful painting of a drainpipe covered in painted tiles"
+    },
+    {
+      "greyscale": "a pencil sketch of a plain grey tray",
+      "color": "a vivid painting of a mezze tray with colorful food"
+    },
+    {
+      "greyscale": "a charcoal drawing of a metal water tank",
+      "color": "a colorful painting of a water tank painted with murals"
+    },
+    {
+      "greyscale": "a pencil drawing of a plain concrete step",
+      "color": "a vivid painting of steps covered in mosaic tiles"
+    },
+    {
+      "greyscale": "a charcoal sketch of an empty glass bottle",
+      "color": "a colorful painting of glass bottles filled with wildflowers"
+    },
+    {
+      "greyscale": "a pencil sketch of a simple wooden crate",
+      "color": "a vivid painting of a crate overflowing with fruits"
+    },
+    {
+      "greyscale": "a charcoal drawing of a bare tree branch",
+      "color": "a colorful painting of a branch in full spring blossom"
+    },
+    {
+      "greyscale": "a pencil drawing of a dim corridor",
+      "color": "a vivid painting of a hallway decorated with tropical flowers"
+    },
+    {
+      "greyscale": "a charcoal sketch of a plain door mat",
+      "color": "a colorful painting of a hand-woven textile rug"
+    },
+    {
+      "greyscale": "a pencil drawing of a simple wood table with nothing on it",
+      "color": "a vivid painting of a table full of tropical flowers"
+    },
+    {
+      "greyscale": "a charcoal sketch of a pair of wooden chopsticks",
+      "color": "a colorful painting of a Japanese garden in full bloom"
+    },
+    {
+      "greyscale": "a pencil drawing of a grey metal railing",
+      "color": "a vivid painting of a railing draped in flowering vines"
+    },
+    {
+      "greyscale": "a charcoal sketch of a plain knitted blanket",
+      "color": "a colorful painting of a woven tapestry of birds and flowers"
+    },
+    {
+      "greyscale": "a pencil drawing of a crinkled grey paper",
+      "color": "a vivid painting of paper folded into colorful origami birds"
+    },
+    {
+      "greyscale": "a charcoal sketch of a slab of grey concrete",
+      "color": "a colorful painting of a street mural on a concrete wall"
+    },
+    {
+      "greyscale": "a pencil drawing of a plain white enamel pan",
+      "color": "a vivid painting of a colorful hand-painted enamel bowl"
+    },
+    {
+      "greyscale": "a charcoal sketch of a grey woolen sock",
+      "color": "a colorful painting of a hand-knitted Norwegian sweater"
+    },
+    {
+      "greyscale": "a pencil drawing of a black plastic bag",
+      "color": "a vivid painting of a market bag overflowing with flowers"
+    },
+    {
+      "greyscale": "a charcoal sketch of a plain shipping container",
+      "color": "a colorful painting of containers painted as a mosaic mural"
+    },
+    {
+      "greyscale": "a pencil drawing of a plain grey door",
+      "color": "a vivid painting of a brightly painted door in Ireland"
+    },
+    {
+      "greyscale": "a charcoal sketch of a plain wooden floor",
+      "color": "a colorful painting of a hand-painted wooden floor in Mexico"
+    },
+    {
+      "greyscale": "a pencil drawing of a plain wire hanger",
+      "color": "a vivid painting of colorful dresses hanging on a line"
+    },
+    {
+      "greyscale": "a charcoal sketch of a plain ceramic sink",
+      "color": "a colorful painting of a hand-painted ceramic sink in Spain"
+    },
+    {
+      "greyscale": "a pencil drawing of a plain metal spoon",
+      "color": "a vivid painting of a hand-painted enamel spoon collection"
+    },
+    {
+      "greyscale": "a charcoal sketch of a concrete flower pot",
+      "color": "a colorful painting of a terracotta pot with painted flowers"
+    },
+    {
+      "greyscale": "a pencil drawing of a grey rubber boot",
+      "color": "a vivid painting of a rubber boot planted with bright flowers"
+    },
+    {
+      "greyscale": "a charcoal sketch of a plain glass jar",
+      "color": "a colorful painting of a jar of wildflowers on a windowsill"
+    },
+    {
+      "greyscale": "a pencil drawing of a plain canvas stretched on a frame",
+      "color": "a vivid painting of a finished canvas of tropical birds"
+    },
+    {
+      "greyscale": "a charcoal sketch of a plain metal letterbox",
+      "color": "a colorful painting of a hand-painted letterbox in a garden"
+    },
+    {
+      "greyscale": "a pencil drawing of a grey stone step",
+      "color": "a vivid painting of a step covered in terracotta tiles"
+    },
+    {
+      "greyscale": "a charcoal sketch of a plain wooden cupboard",
+      "color": "a colorful painting of a painted cupboard in a Mexican kitchen"
+    },
+    {
+      "greyscale": "a pencil drawing of a plain window with condensation",
+      "color": "a vivid painting of a window framed in red geraniums"
+    },
+    {
+      "greyscale": "a charcoal sketch of a plain ceiling fan",
+      "color": "a colorful painting of a glass chandelier in a ballroom"
+    },
+    {
+      "greyscale": "a pencil drawing of a grey garden shed",
+      "color": "a vivid painting of a painted garden shed covered in roses"
+    },
+    {
+      "greyscale": "a charcoal sketch of a rolled-up mat",
+      "color": "a colorful painting of an unrolled Persian carpet pattern"
+    },
+    {
+      "greyscale": "a pencil drawing of a plain white mug",
+      "color": "a vivid painting of a hand-painted majolica mug"
+    },
+    {
+      "greyscale": "a charcoal sketch of a grey cobblestone path",
+      "color": "a colorful painting of a painted cobblestone path in a garden"
+    },
+    {
+      "greyscale": "a pencil drawing of a plain window shade",
+      "color": "a vivid painting of a hand-painted window blind with birds"
+    },
+    {
+      "greyscale": "a charcoal sketch of a plain stone fountain",
+      "color": "a colorful painting of a mosaic fountain in a garden"
+    },
+    {
+      "greyscale": "a charcoal sketch of a bare tree in a grey winter sky",
+      "color": "a vivid painting of a blooming jacaranda tree in full purple"
+    }
+  ],
+  "medium": [
+    {
+      "greyscale": "a charcoal sketch of a barn owl on a fence post",
+      "color": "a colorful painting of a scarlet macaw perched in a tree"
+    },
+    {
+      "greyscale": "a pencil drawing of a black bear in a pine forest",
+      "color": "a vivid painting of an orange tiger in tall grass"
+    },
+    {
+      "greyscale": "a charcoal sketch of a grey wolf in winter woods",
+      "color": "a colorful painting of a red fox in autumn leaves"
+    },
+    {
+      "greyscale": "a pencil sketch of a great blue heron in a marsh",
+      "color": "a vivid painting of a roseate spoonbill in a lagoon"
+    },
+    {
+      "greyscale": "a charcoal drawing of a gorilla in dense forest",
+      "color": "a colorful painting of an orangutan in a rainforest"
+    },
+    {
+      "greyscale": "a pencil drawing of a jaguar stalking through jungle",
+      "color": "a vivid painting of a leopard in a golden savanna"
+    },
+    {
+      "greyscale": "a charcoal sketch of a white pelican in flight",
+      "color": "a colorful painting of a blue-footed booby on a cliff"
+    },
+    {
+      "greyscale": "a pencil sketch of a grey seal on a rocky shore",
+      "color": "a vivid painting of a sea otter floating on kelp"
+    },
+    {
+      "greyscale": "a charcoal sketch of a bison in a blizzard",
+      "color": "a colorful painting of a moose in an autumn swamp"
+    },
+    {
+      "greyscale": "a pencil drawing of a puffin on a cliff edge",
+      "color": "a vivid painting of a kingfisher diving into a stream"
+    },
+    {
+      "greyscale": "a charcoal sketch of a cheetah resting on a termite mound",
+      "color": "a colorful painting of a lion cub in tall grass"
+    },
+    {
+      "greyscale": "a pencil sketch of a rhinoceros at a watering hole",
+      "color": "a vivid painting of a hippopotamus in a river"
+    },
+    {
+      "greyscale": "a charcoal drawing of a manta ray underwater",
+      "color": "a colorful painting of a whale shark near a reef"
+    },
+    {
+      "greyscale": "a pencil drawing of a lynx in a snowy forest",
+      "color": "a vivid painting of a bobcat in a red rock canyon"
+    },
+    {
+      "greyscale": "a charcoal sketch of a crow perched on a branch",
+      "color": "a colorful painting of a blue jay on a flowering tree"
+    },
+    {
+      "greyscale": "a pencil sketch of a walrus on an ice floe",
+      "color": "a vivid painting of a polar bear by an arctic shore"
+    },
+    {
+      "greyscale": "a charcoal drawing of a bat emerging from a cave",
+      "color": "a colorful painting of a flying fox in a jungle"
+    },
+    {
+      "greyscale": "a pencil drawing of a koala in a eucalyptus tree",
+      "color": "a vivid painting of a red panda on a mossy branch"
+    },
+    {
+      "greyscale": "a charcoal sketch of a coyote on a desert ridge",
+      "color": "a colorful painting of a roadrunner in the Sonoran Desert"
+    },
+    {
+      "greyscale": "a pencil sketch of a wolverine in a boreal forest",
+      "color": "a vivid painting of a badger in a wildflower meadow"
+    },
+    {
+      "greyscale": "a charcoal sketch of waves crashing on a rocky shore",
+      "color": "a colorful painting of a tropical beach at high noon"
+    },
+    {
+      "greyscale": "a pencil drawing of a storm over the open sea",
+      "color": "a vivid painting of a calm turquoise lagoon with coral"
+    },
+    {
+      "greyscale": "a charcoal sketch of a tide pool in shadow",
+      "color": "a colorful painting of a glowing tide pool at sunset"
+    },
+    {
+      "greyscale": "a pencil sketch of sea foam on dark sand",
+      "color": "a vivid painting of a clear aquamarine cove"
+    },
+    {
+      "greyscale": "a charcoal drawing of a foggy ocean at dawn",
+      "color": "a colorful painting of a Caribbean reef in sunlight"
+    },
+    {
+      "greyscale": "a pencil drawing of sea cliffs in rain",
+      "color": "a vivid painting of orange cliffs above a teal sea"
+    },
+    {
+      "greyscale": "a charcoal sketch of a whirlpool in open water",
+      "color": "a colorful painting of a bioluminescent bay in Costa Rica"
+    },
+    {
+      "greyscale": "a pencil sketch of a kelp forest in the deep",
+      "color": "a vivid painting of a coral forest teeming with fish"
+    },
+    {
+      "greyscale": "a charcoal drawing of a wave breaking on reef",
+      "color": "a colorful painting of a glass wave at Pipeline, Hawaii"
+    },
+    {
+      "greyscale": "a pencil drawing of sea grass in murky water",
+      "color": "a vivid painting of a seagrass meadow in crystal water"
+    },
+    {
+      "greyscale": "a charcoal sketch of bare trees in a winter forest",
+      "color": "a colorful painting of a maple forest in peak autumn"
+    },
+    {
+      "greyscale": "a pencil drawing of a dark pine forest at night",
+      "color": "a vivid painting of a sunlit redwood forest"
+    },
+    {
+      "greyscale": "a charcoal sketch of a misty forest floor",
+      "color": "a colorful painting of a tropical forest floor with orchids"
+    },
+    {
+      "greyscale": "a pencil sketch of a dead forest after a fire",
+      "color": "a vivid painting of a wildflower-covered forest clearing"
+    },
+    {
+      "greyscale": "a charcoal drawing of tree roots emerging from soil",
+      "color": "a colorful painting of aerial roots in a rainforest"
+    },
+    {
+      "greyscale": "a pencil drawing of a forest path in fog",
+      "color": "a vivid painting of a bamboo forest in golden light"
+    },
+    {
+      "greyscale": "a charcoal sketch of tree shadows on snow",
+      "color": "a colorful painting of a dappled-light forest in spring"
+    },
+    {
+      "greyscale": "a pencil sketch of a hollow old tree",
+      "color": "a vivid painting of a giant baobab tree at sunset"
+    },
+    {
+      "greyscale": "a charcoal drawing of storm-bent trees on a coast",
+      "color": "a colorful painting of wind-shaped trees on a cliff"
+    },
+    {
+      "greyscale": "a pencil drawing of dense undergrowth in a thicket",
+      "color": "a vivid painting of a jungle understory with bromeliads"
+    },
+    {
+      "greyscale": "a charcoal sketch of a city street in light rain",
+      "color": "a colorful painting of a neon-lit Tokyo alley at night"
+    },
+    {
+      "greyscale": "a pencil drawing of an empty subway platform",
+      "color": "a vivid painting of a mosaic-tiled underground station"
+    },
+    {
+      "greyscale": "a charcoal sketch of a fire escape on a brick wall",
+      "color": "a colorful painting of a painted mural on a city wall"
+    },
+    {
+      "greyscale": "a pencil sketch of a rooftop in winter",
+      "color": "a vivid painting of a rooftop garden in bloom"
+    },
+    {
+      "greyscale": "a charcoal drawing of a market alley at dawn",
+      "color": "a colorful painting of a flower market in Amsterdam"
+    },
+    {
+      "greyscale": "a pencil drawing of a train station concourse",
+      "color": "a vivid painting of Grand Central Terminal in golden light"
+    },
+    {
+      "greyscale": "a charcoal sketch of a dim church interior",
+      "color": "a colorful painting of a stained glass chapel in sunlight"
+    },
+    {
+      "greyscale": "a pencil sketch of a bridge reflected in still water",
+      "color": "a vivid painting of a rainbow reflected in a canal"
+    },
+    {
+      "greyscale": "a charcoal drawing of apartment buildings in mist",
+      "color": "a colorful painting of rainbow-painted townhouses in Bristol"
+    },
+    {
+      "greyscale": "a pencil drawing of a harbor with fishing boats",
+      "color": "a vivid painting of a colorful harbor in Cinque Terre"
+    },
+    {
+      "greyscale": "a charcoal sketch of a mountain pass in a blizzard",
+      "color": "a colorful painting of a mountain pass in wildflower season"
+    },
+    {
+      "greyscale": "a pencil drawing of a grey glacier between peaks",
+      "color": "a vivid painting of turquoise glacial lake in the Rockies"
+    },
+    {
+      "greyscale": "a charcoal sketch of a rocky summit above clouds",
+      "color": "a colorful painting of a summit with alpine flowers"
+    },
+    {
+      "greyscale": "a pencil sketch of a highland plateau in rain",
+      "color": "a vivid painting of a heather-covered Scottish highland"
+    },
+    {
+      "greyscale": "a charcoal drawing of a steep canyon in fog",
+      "color": "a colorful painting of an orange sandstone canyon in sun"
+    },
+    {
+      "greyscale": "a pencil drawing of a dry mountain ridge",
+      "color": "a vivid painting of a green mountain ridge in spring rain"
+    },
+    {
+      "greyscale": "a charcoal sketch of a rocky gorge at dawn",
+      "color": "a colorful painting of a pink granite gorge at sunrise"
+    },
+    {
+      "greyscale": "a pencil sketch of a cliff face with cracks",
+      "color": "a vivid painting of a cliff with hanging gardens in bloom"
+    },
+    {
+      "greyscale": "a charcoal drawing of a bare lava field",
+      "color": "a colorful painting of a lava field with bright wildflowers"
+    },
+    {
+      "greyscale": "a pencil drawing of a steep scree slope",
+      "color": "a vivid painting of a meadow at the base of a red rock wall"
+    },
+    {
+      "greyscale": "a charcoal sketch of a sand dune in harsh light",
+      "color": "a colorful painting of a golden sand dune at sunset"
+    },
+    {
+      "greyscale": "a pencil drawing of cracked desert earth",
+      "color": "a vivid painting of a salt flat in pink evening light"
+    },
+    {
+      "greyscale": "a charcoal sketch of a cactus silhouette at dusk",
+      "color": "a colorful painting of a saguaro cactus in bloom"
+    },
+    {
+      "greyscale": "a pencil sketch of a dry riverbed",
+      "color": "a vivid painting of an oasis with blue water"
+    },
+    {
+      "greyscale": "a charcoal drawing of a desert rock arch",
+      "color": "a colorful painting of a red sandstone arch at golden hour"
+    },
+    {
+      "greyscale": "a pencil drawing of wind-carved rock formations",
+      "color": "a vivid painting of striped sandstone hoodoos at sunrise"
+    },
+    {
+      "greyscale": "a charcoal sketch of a dry mesquite tree",
+      "color": "a colorful painting of a blooming ocotillo in the Sonoran"
+    },
+    {
+      "greyscale": "a pencil sketch of a dust devil in a plain",
+      "color": "a vivid painting of a rainbow over a red desert plain"
+    },
+    {
+      "greyscale": "a charcoal drawing of a thorn bush in sand",
+      "color": "a colorful painting of desert wildflowers after rain"
+    },
+    {
+      "greyscale": "a pencil drawing of a heat mirage over flat land",
+      "color": "a vivid painting of a rainbow mirage over a salt lake"
+    },
+    {
+      "greyscale": "a charcoal sketch of a winter herb garden",
+      "color": "a colorful painting of a summer kitchen garden in bloom"
+    },
+    {
+      "greyscale": "a pencil drawing of a formal garden in November",
+      "color": "a vivid painting of a French formal garden in June"
+    },
+    {
+      "greyscale": "a charcoal sketch of a Japanese rock garden",
+      "color": "a colorful painting of a Japanese moss garden in autumn"
+    },
+    {
+      "greyscale": "a pencil sketch of a greenhouse in winter",
+      "color": "a vivid painting of a tropical greenhouse with orchids"
+    },
+    {
+      "greyscale": "a charcoal drawing of bare rose canes in frost",
+      "color": "a colorful painting of a rose garden at peak bloom"
+    },
+    {
+      "greyscale": "a pencil drawing of a dormant vegetable garden",
+      "color": "a vivid painting of a vibrant kitchen garden at harvest"
+    },
+    {
+      "greyscale": "a charcoal sketch of an overgrown garden path",
+      "color": "a colorful painting of an English cottage garden in July"
+    },
+    {
+      "greyscale": "a pencil sketch of a pruned topiary garden",
+      "color": "a vivid painting of a blooming topiary in spring"
+    },
+    {
+      "greyscale": "a charcoal drawing of faded autumn flower beds",
+      "color": "a colorful painting of tulip beds in a Dutch garden"
+    },
+    {
+      "greyscale": "a pencil drawing of a pergola covered in bare vines",
+      "color": "a vivid painting of a wisteria-covered pergola in bloom"
+    },
+    {
+      "greyscale": "a charcoal sketch of a grey river at dawn",
+      "color": "a colorful painting of a turquoise river through a canyon"
+    },
+    {
+      "greyscale": "a pencil drawing of a dark lake under clouds",
+      "color": "a vivid painting of a sunset mirrored on a still lake"
+    },
+    {
+      "greyscale": "a charcoal sketch of a flooded plain after rain",
+      "color": "a colorful painting of a shallow river with colored pebbles"
+    },
+    {
+      "greyscale": "a pencil sketch of a waterfall in mist",
+      "color": "a vivid painting of a rainbow over Angel Falls"
+    },
+    {
+      "greyscale": "a charcoal drawing of a stagnant pond in winter",
+      "color": "a colorful painting of a lotus-covered pond in summer"
+    },
+    {
+      "greyscale": "a pencil drawing of rain on a dark river surface",
+      "color": "a vivid painting of a glowing bioluminescent river"
+    },
+    {
+      "greyscale": "a charcoal sketch of a river gorge in shadow",
+      "color": "a colorful painting of a red rock river canyon in sun"
+    },
+    {
+      "greyscale": "a pencil sketch of a canal in early morning fog",
+      "color": "a vivid painting of a Venetian canal at golden hour"
+    },
+    {
+      "greyscale": "a charcoal drawing of a flooded meadow",
+      "color": "a colorful painting of a river delta from the air"
+    },
+    {
+      "greyscale": "a pencil drawing of ice covering a frozen stream",
+      "color": "a vivid painting of a glacial stream in alpine meadow"
+    },
+    {
+      "greyscale": "a charcoal sketch of a wilted rose on a stem",
+      "color": "a colorful painting of a blooming red rose with dew"
+    },
+    {
+      "greyscale": "a pencil drawing of a daisy with drooping petals",
+      "color": "a vivid painting of a bright yellow sunflower face"
+    },
+    {
+      "greyscale": "a charcoal sketch of a dried lavender bundle",
+      "color": "a colorful painting of fresh lavender in a Proven\u00e7al field"
+    },
+    {
+      "greyscale": "a pencil sketch of a tulip past its bloom",
+      "color": "a vivid painting of a field of tulips in full bloom"
+    },
+    {
+      "greyscale": "a charcoal drawing of a faded chrysanthemum",
+      "color": "a colorful painting of a vibrant chrysanthemum bouquet"
+    },
+    {
+      "greyscale": "a pencil drawing of a poppy losing its petals",
+      "color": "a vivid painting of a red poppy field in Flanders"
+    },
+    {
+      "greyscale": "a charcoal sketch of a single orchid in shadow",
+      "color": "a colorful painting of an orchid cascade in a greenhouse"
+    },
+    {
+      "greyscale": "a pencil sketch of a pressed flower on paper",
+      "color": "a vivid painting of a fresh wildflower bouquet"
+    },
+    {
+      "greyscale": "a charcoal drawing of a thistle in the wind",
+      "color": "a colorful painting of a thistle with purple blooms"
+    },
+    {
+      "greyscale": "a pencil drawing of a bare magnolia branch",
+      "color": "a vivid painting of a magnolia tree in full bloom"
+    },
+    {
+      "greyscale": "a charcoal sketch of a barn in a winter storm",
+      "color": "a colorful painting of a barn surrounded by autumn foliage"
+    },
+    {
+      "greyscale": "a pencil drawing of a plowed field in autumn",
+      "color": "a vivid painting of a golden wheat field at harvest"
+    },
+    {
+      "greyscale": "a charcoal sketch of a silo against overcast sky",
+      "color": "a colorful painting of a sunflower farm with blue sky"
+    },
+    {
+      "greyscale": "a pencil sketch of a muddy farm path",
+      "color": "a vivid painting of a farm path lined with wildflowers"
+    },
+    {
+      "greyscale": "a charcoal drawing of a pasture in fog",
+      "color": "a colorful painting of a green pasture in spring"
+    },
+    {
+      "greyscale": "a pencil drawing of a chicken coop in rain",
+      "color": "a vivid painting of a farm in full summer bloom"
+    },
+    {
+      "greyscale": "a charcoal sketch of a haystack in a field",
+      "color": "a colorful painting of rolled hay bales in a red sunset"
+    },
+    {
+      "greyscale": "a pencil sketch of a bare orchard in winter",
+      "color": "a vivid painting of an apple orchard in blossom"
+    },
+    {
+      "greyscale": "a charcoal drawing of a vineyard in November",
+      "color": "a colorful painting of a vineyard in harvest season"
+    },
+    {
+      "greyscale": "a pencil drawing of a vegetable plot after frost",
+      "color": "a vivid painting of a vegetable garden in midsummer"
+    },
+    {
+      "greyscale": "a charcoal sketch of a grey overcast sky",
+      "color": "a colorful painting of a sunset sky with pink and purple clouds"
+    },
+    {
+      "greyscale": "a pencil drawing of storm clouds building over hills",
+      "color": "a vivid painting of a rainbow after a thunderstorm"
+    },
+    {
+      "greyscale": "a charcoal sketch of moonlit clouds at night",
+      "color": "a colorful painting of a starry night over a snowy mountain"
+    },
+    {
+      "greyscale": "a pencil sketch of early morning fog over a valley",
+      "color": "a vivid painting of a valley filled with hot air balloons"
+    },
+    {
+      "greyscale": "a charcoal drawing of a hurricane from above",
+      "color": "a colorful painting of a double rainbow over the ocean"
+    },
+    {
+      "greyscale": "a pencil drawing of a grey dawn sky over the sea",
+      "color": "a vivid painting of a sunrise over the Maldives"
+    },
+    {
+      "greyscale": "a charcoal sketch of a cloud formation over a plain",
+      "color": "a colorful painting of an aurora borealis over a fjord"
+    },
+    {
+      "greyscale": "a pencil sketch of a jet contrail at dusk",
+      "color": "a vivid painting of a sky streaked with sunset colors"
+    },
+    {
+      "greyscale": "a charcoal drawing of a fog bank over the coast",
+      "color": "a colorful painting of coastal sea fog lit by golden light"
+    },
+    {
+      "greyscale": "a pencil drawing of heat haze over a road",
+      "color": "a vivid painting of a mirage over a colorful salt flat"
+    },
+    {
+      "greyscale": "a charcoal sketch of a frozen pond in winter",
+      "color": "a colorful painting of the same pond in summer in bloom"
+    },
+    {
+      "greyscale": "a pencil drawing of a leafless oak in December",
+      "color": "a vivid painting of the same oak covered in spring leaves"
+    },
+    {
+      "greyscale": "a charcoal sketch of grey slush on a street",
+      "color": "a colorful painting of a street market in summer"
+    },
+    {
+      "greyscale": "a pencil sketch of a dormant garden in January",
+      "color": "a vivid painting of the same garden in July in bloom"
+    },
+    {
+      "greyscale": "a charcoal drawing of footprints in new snow",
+      "color": "a colorful painting of footprints in summer wildflower field"
+    },
+    {
+      "greyscale": "a pencil drawing of a bare hedgerow in frost",
+      "color": "a vivid painting of a hedgerow in late summer berry season"
+    },
+    {
+      "greyscale": "a charcoal sketch of a grey November beach",
+      "color": "a colorful painting of the same beach in July"
+    },
+    {
+      "greyscale": "a pencil sketch of fallen leaves on wet pavement",
+      "color": "a vivid painting of a canopy of autumn leaves in gold"
+    },
+    {
+      "greyscale": "a charcoal drawing of an empty summer garden chair",
+      "color": "a colorful painting of a garden chair surrounded by flowers"
+    },
+    {
+      "greyscale": "a pencil drawing of a rainy spring morning in a park",
+      "color": "a vivid painting of the same park on a bright spring day"
+    },
+    {
+      "greyscale": "a charcoal sketch of a moth on a window screen",
+      "color": "a colorful painting of a monarch butterfly on milkweed"
+    },
+    {
+      "greyscale": "a pencil drawing of a dragonfly on a reed",
+      "color": "a vivid painting of a damselfly on a lotus flower"
+    },
+    {
+      "greyscale": "a charcoal sketch of a bee on a flower in shadow",
+      "color": "a colorful painting of a bumblebee on a yellow sunflower"
+    },
+    {
+      "greyscale": "a pencil sketch of a beetle on a log",
+      "color": "a vivid painting of a jewel beetle on a tropical leaf"
+    },
+    {
+      "greyscale": "a charcoal drawing of a grasshopper in a dry field",
+      "color": "a colorful painting of a katydid on a bright green leaf"
+    },
+    {
+      "greyscale": "a pencil drawing of a spider on a web at dawn",
+      "color": "a vivid painting of a golden orb weaver in sunlight"
+    },
+    {
+      "greyscale": "a charcoal sketch of a firefly in the dark",
+      "color": "a colorful painting of a firefly meadow at twilight"
+    },
+    {
+      "greyscale": "a pencil sketch of a praying mantis on a stick",
+      "color": "a vivid painting of a praying mantis on a red flower"
+    },
+    {
+      "greyscale": "a charcoal drawing of ants on a piece of bark",
+      "color": "a colorful painting of leafcutter ants on a jungle floor"
+    },
+    {
+      "greyscale": "a pencil drawing of a luna moth on a wall",
+      "color": "a vivid painting of a luna moth on a green leaf"
+    },
+    {
+      "greyscale": "a charcoal sketch of a murky underwater scene",
+      "color": "a colorful painting of a crystal-clear reef"
+    },
+    {
+      "greyscale": "a pencil drawing of a dark underwater cave",
+      "color": "a vivid painting of a sunlit underwater arch"
+    },
+    {
+      "greyscale": "a charcoal sketch of eelgrass in shadow water",
+      "color": "a colorful painting of seagrass meadow in clear blue water"
+    },
+    {
+      "greyscale": "a pencil sketch of a sunken ship on the seafloor",
+      "color": "a vivid painting of a coral-encrusted shipwreck"
+    },
+    {
+      "greyscale": "a charcoal drawing of a jellyfish in dim water",
+      "color": "a colorful painting of glowing jellyfish in blue water"
+    },
+    {
+      "greyscale": "a pencil drawing of a school of fish in silhouette",
+      "color": "a vivid painting of a school of neon tetras in a river"
+    },
+    {
+      "greyscale": "a charcoal sketch of sea urchins on a dark reef",
+      "color": "a colorful painting of sea urchins on a bright reef"
+    },
+    {
+      "greyscale": "a pencil sketch of a squid in deep water",
+      "color": "a vivid painting of a bioluminescent squid at depth"
+    },
+    {
+      "greyscale": "a charcoal drawing of barnacles on a dark rock",
+      "color": "a colorful painting of barnacles on a sun-warmed rock"
+    },
+    {
+      "greyscale": "a pencil drawing of a crab on a dark sandy bottom",
+      "color": "a vivid painting of a hermit crab on a colorful reef"
+    },
+    {
+      "greyscale": "a charcoal sketch of a single apple on a table",
+      "color": "a colorful painting of a fruit bowl with tropical fruits"
+    },
+    {
+      "greyscale": "a pencil drawing of a loaf of bread",
+      "color": "a vivid painting of a spread of colorful mezze"
+    },
+    {
+      "greyscale": "a charcoal sketch of vegetables in a colander",
+      "color": "a colorful painting of a market vegetable stand"
+    },
+    {
+      "greyscale": "a pencil sketch of a cup of tea in shadow",
+      "color": "a vivid painting of a colourful afternoon tea spread"
+    },
+    {
+      "greyscale": "a charcoal drawing of a raw egg on a surface",
+      "color": "a colorful painting of a breakfast spread with fruit"
+    },
+    {
+      "greyscale": "a pencil drawing of a bunch of grapes in dim light",
+      "color": "a vivid painting of a vineyard at harvest time"
+    },
+    {
+      "greyscale": "a charcoal sketch of a wedge of cheese on a board",
+      "color": "a colorful painting of a cheese and charcuterie board"
+    },
+    {
+      "greyscale": "a pencil sketch of a handful of nuts on cloth",
+      "color": "a vivid painting of a spice stall with colorful mounds"
+    },
+    {
+      "greyscale": "a charcoal drawing of a jar with dried herbs",
+      "color": "a colorful painting of fresh herbs in a summer kitchen"
+    },
+    {
+      "greyscale": "a pencil drawing of a single mushroom on wood",
+      "color": "a vivid painting of mushrooms in a mossy forest glade"
+    },
+    {
+      "greyscale": "a charcoal sketch of an oak tree in winter rain",
+      "color": "a colorful painting of an oak tree in autumn glory"
+    },
+    {
+      "greyscale": "a pencil drawing of a cactus in a grey desert",
+      "color": "a vivid painting of a cactus in bloom at sunrise"
+    },
+    {
+      "greyscale": "a charcoal sketch of a fern in a dark forest",
+      "color": "a colorful painting of a fern in dappled jungle light"
+    },
+    {
+      "greyscale": "a pencil sketch of a willow tree in mist",
+      "color": "a vivid painting of a willow tree by a summer pond"
+    },
+    {
+      "greyscale": "a charcoal drawing of a pine tree in a snowstorm",
+      "color": "a colorful painting of a pine tree in autumn colors"
+    },
+    {
+      "greyscale": "a pencil drawing of a birch tree in fog",
+      "color": "a vivid painting of a birch tree in spring green"
+    },
+    {
+      "greyscale": "a charcoal sketch of a palm tree in a grey sky",
+      "color": "a colorful painting of a palm tree at a tropical sunset"
+    },
+    {
+      "greyscale": "a pencil sketch of a bonsai tree in dim light",
+      "color": "a vivid painting of a bonsai tree in spring bloom"
+    },
+    {
+      "greyscale": "a charcoal drawing of a poplar tree in winter",
+      "color": "a colorful painting of a poplar tree in autumn gold"
+    },
+    {
+      "greyscale": "a pencil drawing of a cherry tree without blossoms",
+      "color": "a vivid painting of the same cherry tree in full bloom"
+    },
+    {
+      "greyscale": "a charcoal sketch of a grey gecko on a wall",
+      "color": "a colorful painting of a green day gecko in Hawaii"
+    },
+    {
+      "greyscale": "a pencil drawing of a tortoise on dusty ground",
+      "color": "a vivid painting of a tortoise in a bright meadow"
+    },
+    {
+      "greyscale": "a charcoal sketch of a monitor lizard in shadow",
+      "color": "a colorful painting of a water monitor in a river"
+    },
+    {
+      "greyscale": "a pencil sketch of a skink on dry bark",
+      "color": "a vivid painting of a five-lined skink on a mossy log"
+    },
+    {
+      "greyscale": "a charcoal drawing of a crocodile in murky water",
+      "color": "a colorful painting of a crocodile in a turquoise river"
+    },
+    {
+      "greyscale": "a pencil drawing of a tree frog on grey bark",
+      "color": "a vivid painting of a red-eyed tree frog on a leaf"
+    },
+    {
+      "greyscale": "a charcoal sketch of an iguana on a rock",
+      "color": "a colorful painting of a green iguana in a jungle tree"
+    },
+    {
+      "greyscale": "a pencil sketch of a toad on a damp stone",
+      "color": "a vivid painting of a fire-bellied toad on a lily pad"
+    },
+    {
+      "greyscale": "a charcoal drawing of a salamander on wet rock",
+      "color": "a colorful painting of a fire salamander on forest floor"
+    },
+    {
+      "greyscale": "a pencil drawing of a caiman in dark water",
+      "color": "a vivid painting of a caiman in a sunlit river"
+    },
+    {
+      "greyscale": "a charcoal sketch of a valley in grey November",
+      "color": "a colorful painting of the same valley in full spring"
+    },
+    {
+      "greyscale": "a pencil drawing of a hillside in early March",
+      "color": "a vivid painting of the same hillside in August bloom"
+    },
+    {
+      "greyscale": "a charcoal sketch of a moor in winter sleet",
+      "color": "a colorful painting of the same moor in heather season"
+    },
+    {
+      "greyscale": "a pencil sketch of a meadow in February frost",
+      "color": "a vivid painting of the same meadow in peak summer"
+    },
+    {
+      "greyscale": "a charcoal drawing of a river delta in winter",
+      "color": "a colorful painting of the same delta in spring flood"
+    },
+    {
+      "greyscale": "a pencil drawing of coastal cliffs in drizzle",
+      "color": "a vivid painting of the same cliffs in summer sun"
+    },
+    {
+      "greyscale": "a charcoal sketch of rolling hills in a grey April",
+      "color": "a colorful painting of the same hills in July wildflowers"
+    },
+    {
+      "greyscale": "a pencil sketch of an estuary in grey morning",
+      "color": "a vivid painting of the same estuary at golden hour"
+    },
+    {
+      "greyscale": "a charcoal drawing of a bog in November fog",
+      "color": "a colorful painting of the same bog in spring with sedge"
+    },
+    {
+      "greyscale": "a pencil drawing of a chalk plain in winter",
+      "color": "a vivid painting of the same chalk plain in poppy season"
+    },
+    {
+      "greyscale": "a charcoal sketch of a tiger resting in shade",
+      "color": "a colorful painting of a tiger in tall golden grass"
+    },
+    {
+      "greyscale": "a pencil drawing of a leopard on a grey ledge",
+      "color": "a vivid painting of a leopard in a tree at sunset"
+    },
+    {
+      "greyscale": "a charcoal sketch of a lion in dusty terrain",
+      "color": "a colorful painting of a lion in green savanna grass"
+    },
+    {
+      "greyscale": "a pencil sketch of a cougar on a grey rock",
+      "color": "a vivid painting of a cougar in a red rock canyon"
+    },
+    {
+      "greyscale": "a charcoal drawing of a cheetah in dry scrub",
+      "color": "a colorful painting of a cheetah in the golden Serengeti"
+    },
+    {
+      "greyscale": "a pencil drawing of a snow leopard on dark stone",
+      "color": "a vivid painting of a snow leopard in Himalayan light"
+    },
+    {
+      "greyscale": "a charcoal sketch of a jaguar in dark jungle",
+      "color": "a colorful painting of a jaguar in a sunlit rainforest"
+    },
+    {
+      "greyscale": "a pencil sketch of a bobcat on grey granite",
+      "color": "a vivid painting of a bobcat in an autumn woodland"
+    },
+    {
+      "greyscale": "a charcoal drawing of a clouded leopard in shade",
+      "color": "a colorful painting of a clouded leopard in green foliage"
+    },
+    {
+      "greyscale": "a pencil drawing of a lynx in a grey snowstorm",
+      "color": "a vivid painting of a lynx in a sunny winter forest"
+    },
+    {
+      "greyscale": "a charcoal sketch of a dolphin in grey water",
+      "color": "a colorful painting of a dolphin in turquoise ocean"
+    },
+    {
+      "greyscale": "a pencil drawing of a whale in foggy sea",
+      "color": "a vivid painting of a humpback whale breaching at sunset"
+    },
+    {
+      "greyscale": "a charcoal sketch of a seal on a grey rock",
+      "color": "a colorful painting of a monk seal on a golden beach"
+    },
+    {
+      "greyscale": "a pencil sketch of a walrus on dark ice",
+      "color": "a vivid painting of a walrus on pastel arctic ice"
+    },
+    {
+      "greyscale": "a charcoal drawing of a sea lion in overcast light",
+      "color": "a colorful painting of a sea lion in bright California sun"
+    },
+    {
+      "greyscale": "a pencil drawing of a manatee in murky water",
+      "color": "a vivid painting of a manatee in crystal-clear springs"
+    },
+    {
+      "greyscale": "a charcoal sketch of an orca in grey ocean",
+      "color": "a colorful painting of an orca in a turquoise fjord"
+    },
+    {
+      "greyscale": "a pencil sketch of a porpoise in rough sea",
+      "color": "a vivid painting of a porpoise in a calm blue bay"
+    },
+    {
+      "greyscale": "a charcoal drawing of a dugong in dim water",
+      "color": "a colorful painting of a dugong in a sunlit seagrass bed"
+    },
+    {
+      "greyscale": "a pencil drawing of a narwhal under grey ice",
+      "color": "a vivid painting of a narwhal in Arctic blue water"
+    },
+    {
+      "greyscale": "a charcoal sketch of a heron in early morning mist",
+      "color": "a colorful painting of a purple heron at sunset"
+    },
+    {
+      "greyscale": "a pencil drawing of a hawk on a bare branch",
+      "color": "a vivid painting of a red-tailed hawk soaring over autumn"
+    },
+    {
+      "greyscale": "a charcoal sketch of an albatross over grey sea",
+      "color": "a colorful painting of an albatross over a turquoise sea"
+    },
+    {
+      "greyscale": "a pencil sketch of a pelican on dark pilings",
+      "color": "a vivid painting of a brown pelican in a blue harbor"
+    },
+    {
+      "greyscale": "a charcoal drawing of a cormorant on a grey cliff",
+      "color": "a colorful painting of a cormorant on orange sea stacks"
+    },
+    {
+      "greyscale": "a pencil drawing of a gannet on dark rock",
+      "color": "a vivid painting of a gannet diving into blue sea"
+    },
+    {
+      "greyscale": "a charcoal sketch of a spoonbill in grey marsh",
+      "color": "a colorful painting of a roseate spoonbill in pink dusk"
+    },
+    {
+      "greyscale": "a pencil sketch of a stork in winter fog",
+      "color": "a vivid painting of a white stork in a spring meadow"
+    },
+    {
+      "greyscale": "a charcoal drawing of an ibis in dim swamp",
+      "color": "a colorful painting of a scarlet ibis in a mangrove"
+    },
+    {
+      "greyscale": "a pencil drawing of a crane standing in grey water",
+      "color": "a vivid painting of a red-crowned crane in snowy Japan"
+    },
+    {
+      "greyscale": "a charcoal sketch of a chimpanzee in dark jungle",
+      "color": "a colorful painting of a chimp in a green jungle clearing"
+    },
+    {
+      "greyscale": "a pencil drawing of a lemur in grey mist",
+      "color": "a vivid painting of a ring-tailed lemur in a sunny forest"
+    },
+    {
+      "greyscale": "a charcoal sketch of a baboon on dark rocks",
+      "color": "a colorful painting of a baboon on golden granite"
+    },
+    {
+      "greyscale": "a pencil sketch of a macaque in winter forest",
+      "color": "a vivid painting of a Japanese macaque in a hot spring"
+    },
+    {
+      "greyscale": "a charcoal drawing of a howler monkey in shadow",
+      "color": "a colorful painting of a howler monkey in a green canopy"
+    },
+    {
+      "greyscale": "a pencil drawing of a spider monkey on grey bark",
+      "color": "a vivid painting of a spider monkey in a sunlit forest"
+    },
+    {
+      "greyscale": "a charcoal sketch of a mandrill in dark shade",
+      "color": "a colorful painting of a mandrill with vivid face markings"
+    },
+    {
+      "greyscale": "a pencil sketch of a capuchin on grey branches",
+      "color": "a vivid painting of a capuchin in a tropical treetop"
+    },
+    {
+      "greyscale": "a charcoal drawing of a gibbon in misty forest",
+      "color": "a colorful painting of a siamang in a green canopy"
+    },
+    {
+      "greyscale": "a pencil drawing of a proboscis monkey by dark water",
+      "color": "a vivid painting of a proboscis monkey by a blue river"
+    },
+    {
+      "greyscale": "a charcoal sketch of a sleeping dog by a fireplace",
+      "color": "a colorful painting of a dog playing in autumn leaves"
+    },
+    {
+      "greyscale": "a pencil drawing of a cat on a grey windowsill",
+      "color": "a vivid painting of a cat in a window box of flowers"
+    },
+    {
+      "greyscale": "a charcoal sketch of a rabbit in winter snow",
+      "color": "a colorful painting of a rabbit in a clover meadow"
+    },
+    {
+      "greyscale": "a pencil sketch of a horse in a muddy field",
+      "color": "a vivid painting of a horse in a golden autumn field"
+    },
+    {
+      "greyscale": "a charcoal drawing of a cow in a grey barn",
+      "color": "a colorful painting of a cow in a green summer pasture"
+    },
+    {
+      "greyscale": "a pencil drawing of a sheep in a winter fog",
+      "color": "a vivid painting of a sheep on a green hillside in spring"
+    },
+    {
+      "greyscale": "a charcoal sketch of a pig in a muddy pen",
+      "color": "a colorful painting of a pig in a flowering farmyard"
+    },
+    {
+      "greyscale": "a pencil sketch of a duck on a grey pond",
+      "color": "a vivid painting of a mallard duck on a sunny blue pond"
+    },
+    {
+      "greyscale": "a charcoal drawing of a goat on a grey rocky hill",
+      "color": "a colorful painting of a goat on a green terraced hill"
+    },
+    {
+      "greyscale": "a pencil drawing of a chicken in a dim coop",
+      "color": "a vivid painting of a rooster in a flowering farmyard"
+    },
+    {
+      "greyscale": "a charcoal sketch of a carp in a dark pond",
+      "color": "a colorful painting of a koi carp in a bright garden pond"
+    },
+    {
+      "greyscale": "a pencil drawing of a trout in a grey stream",
+      "color": "a vivid painting of a rainbow trout in a crystal mountain stream"
+    },
+    {
+      "greyscale": "a charcoal sketch of a salmon in a grey river",
+      "color": "a colorful painting of a salmon in a turquoise Alaskan river"
+    },
+    {
+      "greyscale": "a pencil sketch of a bass in dark lake water",
+      "color": "a vivid painting of a largemouth bass in a clear sunlit lake"
+    },
+    {
+      "greyscale": "a charcoal drawing of a catfish in murky water",
+      "color": "a colorful painting of a catfish in a clear river bottom"
+    },
+    {
+      "greyscale": "a pencil drawing of a flounder in grey seabed",
+      "color": "a vivid painting of a flounder on a bright sandy bottom"
+    },
+    {
+      "greyscale": "a charcoal sketch of a tuna in dark ocean",
+      "color": "a colorful painting of a tuna in vivid blue open water"
+    },
+    {
+      "greyscale": "a pencil sketch of a squid in dim water",
+      "color": "a vivid painting of a squid in a bioluminescent deep"
+    },
+    {
+      "greyscale": "a charcoal drawing of a seahorse in grey water",
+      "color": "a colorful painting of a seahorse in a colorful coral reef"
+    },
+    {
+      "greyscale": "a pencil drawing of a sea turtle in murky sea",
+      "color": "a vivid painting of a sea turtle in a crystal reef"
+    },
+    {
+      "greyscale": "a charcoal sketch of a foggy English countryside",
+      "color": "a colorful painting of the same English countryside in June"
+    },
+    {
+      "greyscale": "a pencil drawing of a grey New England shore",
+      "color": "a vivid painting of the same New England shore in fall foliage"
+    },
+    {
+      "greyscale": "a charcoal sketch of a drizzly Irish coast",
+      "color": "a colorful painting of the same Irish coast on a clear day"
+    },
+    {
+      "greyscale": "a pencil sketch of a cold Norwegian fjord",
+      "color": "a vivid painting of the same Norwegian fjord in summer"
+    },
+    {
+      "greyscale": "a charcoal drawing of a grey French countryside",
+      "color": "a colorful painting of the same countryside in lavender season"
+    },
+    {
+      "greyscale": "a pencil drawing of a winter Tuscany hillside",
+      "color": "a vivid painting of the same hillside in sunflower season"
+    },
+    {
+      "greyscale": "a charcoal sketch of a rainy Proven\u00e7al village",
+      "color": "a colorful painting of the same village in market day summer"
+    },
+    {
+      "greyscale": "a pencil sketch of a grey Alpine meadow in October",
+      "color": "a vivid painting of the same Alpine meadow in July bloom"
+    },
+    {
+      "greyscale": "a charcoal drawing of a misty Andalusian plain",
+      "color": "a colorful painting of the same plain in wildflower spring"
+    },
+    {
+      "greyscale": "a pencil drawing of a damp Scottish highland moor",
+      "color": "a vivid painting of the same moor in heather purple"
+    },
+    {
+      "greyscale": "a charcoal sketch of a grey New Zealand coast",
+      "color": "a colorful painting of a New Zealand coast in spring bloom"
+    },
+    {
+      "greyscale": "a pencil drawing of a foggy Kyoto morning",
+      "color": "a vivid painting of Kyoto in cherry blossom season"
+    },
+    {
+      "greyscale": "a charcoal sketch of a grey Patagonian steppe",
+      "color": "a colorful painting of Patagonia in autumn foliage"
+    },
+    {
+      "greyscale": "a pencil sketch of a winter Hokkaido landscape",
+      "color": "a vivid painting of Hokkaido in lavender season"
+    },
+    {
+      "greyscale": "a charcoal drawing of a grey Peruvian altiplano",
+      "color": "a colorful painting of the same altiplano in wildflower bloom"
+    },
+    {
+      "greyscale": "a pencil drawing of a cold Iceland lava field",
+      "color": "a vivid painting of Iceland's lupine fields in June"
+    },
+    {
+      "greyscale": "a charcoal sketch of a grey Moroccan desert",
+      "color": "a colorful painting of a Moroccan oasis in bloom"
+    },
+    {
+      "greyscale": "a pencil sketch of a foggy Amazon basin",
+      "color": "a vivid painting of the Amazon at full biodiversity"
+    },
+    {
+      "greyscale": "a charcoal drawing of a grey Tibetan plateau",
+      "color": "a colorful painting of the plateau with wildflowers in summer"
+    },
+    {
+      "greyscale": "a pencil drawing of a grey Kenyan savanna",
+      "color": "a vivid painting of the Kenyan savanna during the green season"
+    },
+    {
+      "greyscale": "a charcoal sketch of herons standing in grey water",
+      "color": "a colorful painting of herons in a golden sunset marsh"
+    },
+    {
+      "greyscale": "a pencil drawing of pelicans on a grey beach",
+      "color": "a vivid painting of pelicans on a bright tropical beach"
+    },
+    {
+      "greyscale": "a charcoal sketch of egrets in a foggy field",
+      "color": "a colorful painting of egrets in a green summer meadow"
+    },
+    {
+      "greyscale": "a pencil sketch of cranes in winter snow",
+      "color": "a vivid painting of cranes in a spring rice paddy"
+    },
+    {
+      "greyscale": "a charcoal drawing of storks on dark rooftops",
+      "color": "a colorful painting of storks in a red-tiled village"
+    },
+    {
+      "greyscale": "a pencil drawing of ibises in grey mangroves",
+      "color": "a vivid painting of ibises in a golden mangrove at sunset"
+    },
+    {
+      "greyscale": "a charcoal sketch of spoonbills in dim estuary",
+      "color": "a colorful painting of spoonbills in a pink dawn lagoon"
+    },
+    {
+      "greyscale": "a pencil sketch of flamingos in grey salt flat",
+      "color": "a vivid painting of flamingos in a pink salt lake"
+    },
+    {
+      "greyscale": "a charcoal drawing of avocets in cold tidal flat",
+      "color": "a colorful painting of avocets in a turquoise tidal pool"
+    },
+    {
+      "greyscale": "a pencil drawing of lapwings in a winter field",
+      "color": "a vivid painting of lapwings in a spring pasture"
+    },
+    {
+      "greyscale": "a charcoal sketch of a pine forest after fire",
+      "color": "a colorful painting of the same forest with new spring growth"
+    },
+    {
+      "greyscale": "a pencil drawing of a mangrove swamp at low tide",
+      "color": "a vivid painting of a mangrove with crimson crabs"
+    },
+    {
+      "greyscale": "a charcoal sketch of lichen on grey rock",
+      "color": "a colorful painting of lichen in vivid orange on a sunlit rock"
+    },
+    {
+      "greyscale": "a pencil sketch of grey seaweed on a beach",
+      "color": "a vivid painting of bright green seaweed on a sunny shore"
+    },
+    {
+      "greyscale": "a charcoal drawing of driftwood on a grey shore",
+      "color": "a colorful painting of driftwood with moss and sea glass"
+    },
+    {
+      "greyscale": "a pencil drawing of a reed bed in winter wind",
+      "color": "a vivid painting of a reed bed in golden autumn light"
+    },
+    {
+      "greyscale": "a charcoal sketch of cattails in a grey marsh",
+      "color": "a colorful painting of cattails in a summer wetland"
+    },
+    {
+      "greyscale": "a pencil sketch of brambles in a winter hedge",
+      "color": "a vivid painting of the same brambles with ripe blackberries"
+    },
+    {
+      "greyscale": "a charcoal drawing of nettles in a grey clearing",
+      "color": "a colorful painting of a clearing of wildflowers in summer"
+    },
+    {
+      "greyscale": "a pencil drawing of hay bales in a grey field",
+      "color": "a vivid painting of hay bales in a golden sunlit field"
+    },
+    {
+      "greyscale": "a charcoal sketch of a foggy estuary with birds",
+      "color": "a colorful painting of the same estuary in bright winter sun"
+    },
+    {
+      "greyscale": "a pencil drawing of mushrooms on dark forest floor",
+      "color": "a vivid painting of fly agaric mushrooms in dappled light"
+    },
+    {
+      "greyscale": "a charcoal sketch of icicles on a dark branch",
+      "color": "a colorful painting of the same branch in cherry blossom"
+    },
+    {
+      "greyscale": "a pencil sketch of frost on a window",
+      "color": "a vivid painting of stained glass with the same pattern"
+    },
+    {
+      "greyscale": "a charcoal drawing of snow on rooftops",
+      "color": "a colorful painting of the same rooftops in summer sun"
+    },
+    {
+      "greyscale": "a pencil drawing of grey autumn rain on leaves",
+      "color": "a vivid painting of the same leaves in full autumn glory"
+    },
+    {
+      "greyscale": "a charcoal sketch of a muddy spring garden",
+      "color": "a colorful painting of the same garden in full summer bloom"
+    },
+    {
+      "greyscale": "a pencil sketch of damp stone path in a park",
+      "color": "a vivid painting of the same path in spring blossoms"
+    },
+    {
+      "greyscale": "a charcoal drawing of ice crystals on glass",
+      "color": "a vivid painting of crystals in a mineral cave"
+    },
+    {
+      "greyscale": "a pencil drawing of a grey mist over wetlands",
+      "color": "a vivid painting of a wetland at pink dawn"
+    }
+  ],
+  "hard": [
+    {
+      "greyscale": "a charcoal sketch of a peacock displaying its tail",
+      "color": "a vivid painting of a peacock displaying its tail"
+    },
+    {
+      "greyscale": "a pencil drawing of a rose in full bloom",
+      "color": "a colorful painting of a rose in full bloom"
+    },
+    {
+      "greyscale": "a charcoal sketch of a parrot perched on a branch",
+      "color": "a vivid painting of a parrot perched on a branch"
+    },
+    {
+      "greyscale": "a pencil sketch of a coral reef with fish",
+      "color": "a colorful painting of a coral reef with fish"
+    },
+    {
+      "greyscale": "a charcoal drawing of a hot air balloon in the sky",
+      "color": "a vivid painting of a hot air balloon in the sky"
+    },
+    {
+      "greyscale": "a pencil drawing of a sunset over the ocean",
+      "color": "a colorful painting of a sunset over the ocean"
+    },
+    {
+      "greyscale": "a charcoal sketch of a hummingbird at a red flower",
+      "color": "a vivid painting of a hummingbird at a red flower"
+    },
+    {
+      "greyscale": "a pencil sketch of a toucan in a rainforest",
+      "color": "a colorful painting of a toucan in a rainforest"
+    },
+    {
+      "greyscale": "a charcoal drawing of a butterfly on a sunflower",
+      "color": "a vivid painting of a butterfly on a sunflower"
+    },
+    {
+      "greyscale": "a pencil drawing of a koi pond with lily pads",
+      "color": "a colorful painting of a koi pond with lily pads"
+    },
+    {
+      "greyscale": "a charcoal sketch of a flamingo wading in water",
+      "color": "a vivid painting of a flamingo wading in water"
+    },
+    {
+      "greyscale": "a pencil sketch of the aurora borealis over mountains",
+      "color": "a colorful painting of the aurora borealis over mountains"
+    },
+    {
+      "greyscale": "a charcoal drawing of a field of tulips",
+      "color": "a vivid painting of a field of tulips"
+    },
+    {
+      "greyscale": "a pencil drawing of a macaw in a jungle canopy",
+      "color": "a colorful painting of a macaw in a jungle canopy"
+    },
+    {
+      "greyscale": "a charcoal sketch of a chameleon on a leaf",
+      "color": "a vivid painting of a chameleon on a leaf"
+    },
+    {
+      "greyscale": "a pencil sketch of a monarch butterfly migration",
+      "color": "a colorful painting of a monarch butterfly migration"
+    },
+    {
+      "greyscale": "a charcoal drawing of a tropical reef at high tide",
+      "color": "a vivid painting of a tropical reef at high tide"
+    },
+    {
+      "greyscale": "a pencil drawing of a garden of roses in bloom",
+      "color": "a colorful painting of a garden of roses in bloom"
+    },
+    {
+      "greyscale": "a charcoal sketch of a Venetian canal at sunset",
+      "color": "a vivid painting of a Venetian canal at sunset"
+    },
+    {
+      "greyscale": "a pencil sketch of autumn foliage in a forest",
+      "color": "a colorful painting of autumn foliage in a forest"
+    },
+    {
+      "greyscale": "a charcoal sketch of cherry blossoms on a branch",
+      "color": "an oil painting of cherry blossoms on a branch"
+    },
+    {
+      "greyscale": "a pencil drawing of a lavender field in Provence",
+      "color": "a watercolor painting of a lavender field in Provence"
+    },
+    {
+      "greyscale": "a charcoal sketch of a rainbow lorikeet on a perch",
+      "color": "an acrylic painting of a rainbow lorikeet on a perch"
+    },
+    {
+      "greyscale": "a pencil sketch of a tropical sunset over the sea",
+      "color": "a gouache painting of a tropical sunset over the sea"
+    },
+    {
+      "greyscale": "a charcoal drawing of a wildflower meadow in summer",
+      "color": "a vivid watercolor of a wildflower meadow in summer"
+    },
+    {
+      "greyscale": "a pencil drawing of a peacock feather close-up",
+      "color": "an oil painting of a peacock feather close-up"
+    },
+    {
+      "greyscale": "a charcoal sketch of a reef with sea turtles",
+      "color": "a vivid acrylic painting of a reef with sea turtles"
+    },
+    {
+      "greyscale": "a pencil sketch of a bougainvillea-covered wall",
+      "color": "a colorful painting of a bougainvillea-covered wall"
+    },
+    {
+      "greyscale": "a charcoal drawing of the Milky Way over a desert",
+      "color": "a vivid painting of the Milky Way over a desert"
+    },
+    {
+      "greyscale": "a pencil drawing of an orchid in a glass vase",
+      "color": "an oil painting of an orchid in a glass vase"
+    },
+    {
+      "greyscale": "a loose charcoal sketch of a sunflower field",
+      "color": "a detailed colorful painting of a sunflower field"
+    },
+    {
+      "greyscale": "a rough pencil sketch of a coral reef",
+      "color": "a detailed vivid painting of a coral reef"
+    },
+    {
+      "greyscale": "a gestural charcoal sketch of a flock of flamingos",
+      "color": "a detailed colorful painting of a flock of flamingos"
+    },
+    {
+      "greyscale": "a minimal pencil sketch of a koi in a pond",
+      "color": "a highly detailed painting of a koi in a pond"
+    },
+    {
+      "greyscale": "a quick charcoal sketch of a parrot on a branch",
+      "color": "a detailed oil painting of a parrot on a branch"
+    },
+    {
+      "greyscale": "a loose pencil sketch of tropical fish on a reef",
+      "color": "a detailed watercolor of tropical fish on a reef"
+    },
+    {
+      "greyscale": "a rough charcoal sketch of a field of poppies",
+      "color": "a detailed colorful painting of a field of poppies"
+    },
+    {
+      "greyscale": "a gestural pencil sketch of a hummingbird",
+      "color": "a highly detailed acrylic painting of a hummingbird"
+    },
+    {
+      "greyscale": "a minimal charcoal sketch of cherry blossoms",
+      "color": "a detailed watercolor of cherry blossoms on a branch"
+    },
+    {
+      "greyscale": "a rough pencil sketch of a peacock tail display",
+      "color": "a detailed oil painting of a peacock tail display"
+    },
+    {
+      "greyscale": "a charcoal sketch of a tropical beach at dawn",
+      "color": "a vivid painting of the same tropical beach at noon"
+    },
+    {
+      "greyscale": "a pencil drawing of a mountain lake at midnight",
+      "color": "a colorful painting of the same mountain lake at golden hour"
+    },
+    {
+      "greyscale": "a charcoal sketch of a rose garden at dusk",
+      "color": "a vivid painting of the same rose garden at midday"
+    },
+    {
+      "greyscale": "a pencil sketch of a rainforest canopy at night",
+      "color": "a colorful painting of the same rainforest canopy at dawn"
+    },
+    {
+      "greyscale": "a charcoal drawing of a coral reef at low light",
+      "color": "a vivid painting of the same coral reef in full sun"
+    },
+    {
+      "greyscale": "a pencil drawing of a lavender field before sunrise",
+      "color": "a colorful painting of the same lavender field at noon"
+    },
+    {
+      "greyscale": "a charcoal sketch of a jungle at night",
+      "color": "a vivid painting of the same jungle at midday"
+    },
+    {
+      "greyscale": "a pencil sketch of autumn leaves in the rain",
+      "color": "a colorful painting of autumn leaves in bright sun"
+    },
+    {
+      "greyscale": "a charcoal drawing of a flower market at dawn",
+      "color": "a vivid painting of the same flower market at midday"
+    },
+    {
+      "greyscale": "a pencil drawing of a flamingo lagoon at dusk",
+      "color": "a colorful painting of the same flamingo lagoon at noon"
+    },
+    {
+      "greyscale": "a charcoal sketch of a peacock from behind",
+      "color": "a vivid painting of a peacock from the front"
+    },
+    {
+      "greyscale": "a pencil drawing of a coral reef from above",
+      "color": "a colorful painting of a coral reef from below"
+    },
+    {
+      "greyscale": "a charcoal sketch of a sunflower from below",
+      "color": "a vivid painting of a sunflower from the front"
+    },
+    {
+      "greyscale": "a pencil sketch of a parrot from below",
+      "color": "a colorful painting of a parrot from the side"
+    },
+    {
+      "greyscale": "a charcoal drawing of a koi pond from close up",
+      "color": "a vivid painting of a koi pond from above"
+    },
+    {
+      "greyscale": "a pencil drawing of a forest path looking up",
+      "color": "a colorful painting of a forest path looking ahead"
+    },
+    {
+      "greyscale": "a charcoal sketch of a flower macro close-up",
+      "color": "a vivid painting of the same flower from a distance"
+    },
+    {
+      "greyscale": "a pencil sketch of a reef fish from the side",
+      "color": "a colorful painting of reef fish from above"
+    },
+    {
+      "greyscale": "a charcoal drawing of cherry blossoms close up",
+      "color": "a vivid painting of a cherry blossom tree from afar"
+    },
+    {
+      "greyscale": "a pencil drawing of a bird of paradise from above",
+      "color": "a colorful painting of a bird of paradise from the side"
+    },
+    {
+      "greyscale": "a monochrome oil painting of a peacock in a garden",
+      "color": "a vivid oil painting of a peacock in a garden"
+    },
+    {
+      "greyscale": "a greyscale watercolor of tropical flowers in a vase",
+      "color": "a vivid watercolor of tropical flowers in a vase"
+    },
+    {
+      "greyscale": "a black and white acrylic of a coral reef scene",
+      "color": "a vivid acrylic painting of the same coral reef scene"
+    },
+    {
+      "greyscale": "a desaturated gouache painting of a parrot on a branch",
+      "color": "a vivid gouache painting of a parrot on a branch"
+    },
+    {
+      "greyscale": "a monochrome sketch of autumn leaves in a forest",
+      "color": "a vivid painting of autumn leaves in the same forest"
+    },
+    {
+      "greyscale": "a greyscale painting of a hummingbird at a flower",
+      "color": "a colorful painting of a hummingbird at the same flower"
+    },
+    {
+      "greyscale": "a black and white painting of a field of sunflowers",
+      "color": "a vivid painting of the same field of sunflowers"
+    },
+    {
+      "greyscale": "a monochrome watercolor of a reef at high tide",
+      "color": "a vivid watercolor of the same reef at high tide"
+    },
+    {
+      "greyscale": "a greyscale painting of a flamingo flock in flight",
+      "color": "a colorful painting of a flamingo flock in flight"
+    },
+    {
+      "greyscale": "a desaturated painting of a wildflower prairie at noon",
+      "color": "a vivid painting of a wildflower prairie at noon"
+    },
+    {
+      "greyscale": "a charcoal realistic drawing of a macaw in a jungle",
+      "color": "a photorealistic painting of a macaw in the same jungle"
+    },
+    {
+      "greyscale": "a pencil realistic drawing of a rose in full bloom",
+      "color": "a photorealistic painting of a rose in full bloom"
+    },
+    {
+      "greyscale": "a charcoal realist sketch of koi fish in a pond",
+      "color": "a photorealistic painting of koi fish in the same pond"
+    },
+    {
+      "greyscale": "a realistic pencil drawing of a coral reef scene",
+      "color": "a photorealistic painting of the same coral reef scene"
+    },
+    {
+      "greyscale": "a charcoal realist sketch of a chameleon on a leaf",
+      "color": "a photorealistic painting of a chameleon on the same leaf"
+    },
+    {
+      "greyscale": "a realistic pencil drawing of a tropical sunset",
+      "color": "a photorealistic painting of the same tropical sunset"
+    },
+    {
+      "greyscale": "a charcoal realist drawing of a field of tulips",
+      "color": "a photorealistic painting of a field of tulips"
+    },
+    {
+      "greyscale": "a realistic pencil sketch of a hummingbird",
+      "color": "a photorealistic painting of the same hummingbird"
+    },
+    {
+      "greyscale": "a charcoal realist drawing of an aurora over a fjord",
+      "color": "a photorealistic painting of an aurora over the same fjord"
+    },
+    {
+      "greyscale": "a realistic pencil drawing of a flamingo in a lagoon",
+      "color": "a photorealistic painting of a flamingo in the same lagoon"
+    },
+    {
+      "greyscale": "a greyscale impressionist painting of a garden party",
+      "color": "a vivid impressionist painting of the same garden party"
+    },
+    {
+      "greyscale": "a monochrome expressionist painting of a stormy sea",
+      "color": "a vivid expressionist painting of the same stormy sea"
+    },
+    {
+      "greyscale": "a greyscale pointillist painting of a flower garden",
+      "color": "a vivid pointillist painting of the same flower garden"
+    },
+    {
+      "greyscale": "a black and white cubist painting of a tropical bird",
+      "color": "a vivid cubist painting of the same tropical bird"
+    },
+    {
+      "greyscale": "a greyscale abstract painting of ocean waves",
+      "color": "a vivid abstract painting of the same ocean waves"
+    },
+    {
+      "greyscale": "a monochrome folk art painting of a peacock",
+      "color": "a vivid folk art painting of the same peacock"
+    },
+    {
+      "greyscale": "a greyscale surrealist painting of a butterfly forest",
+      "color": "a vivid surrealist painting of a butterfly forest"
+    },
+    {
+      "greyscale": "a black and white naive painting of a koi pond",
+      "color": "a vivid naive art painting of the same koi pond"
+    },
+    {
+      "greyscale": "a greyscale plein air painting of a lavender field",
+      "color": "a vivid plein air painting of the same lavender field"
+    },
+    {
+      "greyscale": "a monochrome botanical illustration of a tropical flower",
+      "color": "a vivid botanical illustration of the same tropical flower"
+    },
+    {
+      "greyscale": "a slightly desaturated painting of a flamingo at dawn",
+      "color": "a fully saturated painting of a flamingo at dawn"
+    },
+    {
+      "greyscale": "a faded watercolor of a reef teeming with fish",
+      "color": "a vivid watercolor of the same reef teeming with fish"
+    },
+    {
+      "greyscale": "a washed-out painting of a field of sunflowers",
+      "color": "a vibrant painting of the same field of sunflowers"
+    },
+    {
+      "greyscale": "a pale pencil wash of a hummingbird in a garden",
+      "color": "a vivid oil painting of a hummingbird in the same garden"
+    },
+    {
+      "greyscale": "a low-contrast painting of a parrot on a branch",
+      "color": "a high-contrast colorful painting of a parrot on a branch"
+    },
+    {
+      "greyscale": "a muted tonal painting of autumn leaves in a forest",
+      "color": "a saturated painting of autumn leaves in the same forest"
+    },
+    {
+      "greyscale": "a desaturated plein air painting of a garden in bloom",
+      "color": "a vivid plein air painting of the same garden in bloom"
+    },
+    {
+      "greyscale": "a greyscale digital painting of a tropical reef",
+      "color": "a vivid digital painting of the same tropical reef"
+    },
+    {
+      "greyscale": "a pale ink wash of cherry blossoms on a branch",
+      "color": "a vivid ink painting of cherry blossoms on a branch"
+    },
+    {
+      "greyscale": "a tonal value study of a peacock in a garden",
+      "color": "a fully rendered colorful painting of a peacock in a garden"
+    },
+    {
+      "greyscale": "a detailed charcoal sketch of a coral reef scene",
+      "color": "a detailed colorful painting of the same coral reef scene"
+    },
+    {
+      "greyscale": "a pencil sketch of a parrot mid-flight",
+      "color": "a vivid painting of the same parrot mid-flight"
+    },
+    {
+      "greyscale": "a charcoal sketch of cherry blossoms in a park",
+      "color": "a vivid painting of cherry blossoms in the same park"
+    },
+    {
+      "greyscale": "a pencil drawing of a hummingbird mid-hover",
+      "color": "a colorful painting of the same hummingbird mid-hover"
+    },
+    {
+      "greyscale": "a charcoal drawing of a lion resting under an acacia",
+      "color": "a vivid painting of the same lion resting under the same acacia"
+    },
+    {
+      "greyscale": "a pencil sketch of a peacock in a garden",
+      "color": "a colorful painting of a peacock in the same garden"
+    },
+    {
+      "greyscale": "a charcoal drawing of a field of tulips in wind",
+      "color": "a vivid painting of the same tulip field in wind"
+    },
+    {
+      "greyscale": "a pencil drawing of a koi pond at dusk",
+      "color": "a colorful painting of the same koi pond at dusk"
+    },
+    {
+      "greyscale": "a charcoal sketch of a butterfly on a daisy",
+      "color": "a vivid painting of the same butterfly on the same daisy"
+    },
+    {
+      "greyscale": "a pencil drawing of a sunset at the Grand Canyon",
+      "color": "a colorful painting of the same sunset at the Grand Canyon"
+    },
+    {
+      "greyscale": "a greyscale ink drawing of a tropical bird in a tree",
+      "color": "a vivid ink painting of the same tropical bird in a tree"
+    },
+    {
+      "greyscale": "a charcoal gestural sketch of ocean waves at dusk",
+      "color": "a vivid gestural painting of ocean waves at the same dusk"
+    },
+    {
+      "greyscale": "a tonal pencil drawing of a field of poppies",
+      "color": "a vivid colorful painting of the same field of poppies"
+    },
+    {
+      "greyscale": "a monochrome charcoal of a peacock at full display",
+      "color": "a vivid color painting of the same peacock at full display"
+    },
+    {
+      "greyscale": "a greyscale watercolor of a reef at noon",
+      "color": "a vivid watercolor of the same reef at noon"
+    },
+    {
+      "greyscale": "a black and white ink wash of cherry blossoms",
+      "color": "a vivid color ink wash of the same cherry blossoms"
+    },
+    {
+      "greyscale": "a desaturated oil sketch of a flower garden",
+      "color": "a vivid oil sketch of the same flower garden"
+    },
+    {
+      "greyscale": "a greyscale gouache of tropical birds in a canopy",
+      "color": "a vivid gouache of the same tropical birds in the same canopy"
+    },
+    {
+      "greyscale": "a tonal acrylic of a hummingbird on a branch",
+      "color": "a vivid acrylic of the same hummingbird on the same branch"
+    },
+    {
+      "greyscale": "a monochrome pastel drawing of a lavender field",
+      "color": "a vivid pastel drawing of the same lavender field"
+    },
+    {
+      "greyscale": "a charcoal landscape of rolling hills with a lone tree",
+      "color": "a vivid painting of rolling hills with the same lone tree"
+    },
+    {
+      "greyscale": "a pencil drawing of a mountain with a reflection in a lake",
+      "color": "a colorful painting of the same mountain reflected in the same lake"
+    },
+    {
+      "greyscale": "a charcoal sketch of a river winding through a canyon",
+      "color": "a vivid painting of the same river through the same canyon"
+    },
+    {
+      "greyscale": "a pencil drawing of a lighthouse on a cliff at dusk",
+      "color": "a colorful painting of the same lighthouse on the cliff at the same dusk"
+    },
+    {
+      "greyscale": "a charcoal sketch of a beach with a setting sun",
+      "color": "a vivid painting of the same beach with the same setting sun"
+    },
+    {
+      "greyscale": "a pencil sketch of a forest clearing with wildflowers",
+      "color": "a colorful painting of the same clearing with the same wildflowers"
+    },
+    {
+      "greyscale": "a charcoal drawing of a harbor with boats at sunset",
+      "color": "a vivid painting of the same harbor with the same boats at sunset"
+    },
+    {
+      "greyscale": "a pencil drawing of a vineyard at harvest time",
+      "color": "a colorful painting of the same vineyard at the same harvest"
+    },
+    {
+      "greyscale": "a charcoal sketch of a village street in spring",
+      "color": "a vivid painting of the same village street in spring"
+    },
+    {
+      "greyscale": "a pencil sketch of a canal with bridges at dusk",
+      "color": "a colorful painting of the same canal with the same bridges at dusk"
+    },
+    {
+      "greyscale": "a detailed charcoal of a jungle scene with birds and flowers",
+      "color": "a detailed vivid painting of the same jungle with the same birds and flowers"
+    },
+    {
+      "greyscale": "a pencil drawing of a reef with sharks and colorful fish",
+      "color": "a vivid painting of the same reef with the same sharks and fish"
+    },
+    {
+      "greyscale": "a charcoal sketch of a savanna with elephants and acacia trees",
+      "color": "a vivid painting of the same savanna with the same elephants and trees"
+    },
+    {
+      "greyscale": "a pencil sketch of a cherry orchard with birds and bees",
+      "color": "a colorful painting of the same orchard with the same birds and bees"
+    },
+    {
+      "greyscale": "a charcoal drawing of a meadow with deer and wildflowers",
+      "color": "a vivid painting of the same meadow with the same deer and wildflowers"
+    },
+    {
+      "greyscale": "a pencil drawing of a market stall with fruits and flowers",
+      "color": "a colorful painting of the same stall with the same fruits and flowers"
+    },
+    {
+      "greyscale": "a charcoal sketch of a garden party under fairy lights",
+      "color": "a vivid painting of the same party under the same fairy lights"
+    },
+    {
+      "greyscale": "a pencil sketch of a tropical cove with fish and coral",
+      "color": "a colorful painting of the same cove with the same fish and coral"
+    },
+    {
+      "greyscale": "a charcoal drawing of a rooftop garden with herbs and flowers",
+      "color": "a vivid painting of the same garden with the same herbs and flowers"
+    },
+    {
+      "greyscale": "a pencil drawing of a pond with koi and lotus in bloom",
+      "color": "a colorful painting of the same pond with the same koi and lotus"
+    },
+    {
+      "greyscale": "a hyperrealistic greyscale painting of a peacock tail",
+      "color": "a hyperrealistic color painting of the same peacock tail"
+    },
+    {
+      "greyscale": "a photorealistic greyscale of a coral reef from above",
+      "color": "a photorealistic color painting of the same coral reef from above"
+    },
+    {
+      "greyscale": "a hyperrealistic charcoal of a red rose in full bloom",
+      "color": "a hyperrealistic color painting of the same rose in full bloom"
+    },
+    {
+      "greyscale": "a photorealistic greyscale of a hummingbird at a flower",
+      "color": "a photorealistic color of the same hummingbird at the same flower"
+    },
+    {
+      "greyscale": "a hyperrealistic grey painting of autumn leaves on a path",
+      "color": "a hyperrealistic color painting of the same autumn leaves on the path"
+    },
+    {
+      "greyscale": "a photorealistic greyscale of a flamingo in a salt lake",
+      "color": "a photorealistic color painting of the same flamingo in the same lake"
+    },
+    {
+      "greyscale": "a hyperrealistic greyscale of a tiger in tall grass",
+      "color": "a hyperrealistic color painting of the same tiger in the same grass"
+    },
+    {
+      "greyscale": "a photorealistic greyscale of koi in a lily pond",
+      "color": "a photorealistic color painting of the same koi in the same pond"
+    },
+    {
+      "greyscale": "a hyperrealistic grey of cherry blossoms at peak bloom",
+      "color": "a hyperrealistic color of the same cherry blossoms at peak bloom"
+    },
+    {
+      "greyscale": "a photorealistic greyscale of a parrot in a tropical tree",
+      "color": "a photorealistic color of the same parrot in the same tree"
+    },
+    {
+      "greyscale": "a charcoal sketch of a garden of roses from above",
+      "color": "a vivid painting of the same garden of roses from above"
+    },
+    {
+      "greyscale": "a pencil drawing of a tropical beach at sunrise",
+      "color": "a colorful painting of the same beach at the same sunrise"
+    },
+    {
+      "greyscale": "a charcoal sketch of a reef shark among coral",
+      "color": "a vivid painting of the same shark among the same coral"
+    },
+    {
+      "greyscale": "a pencil drawing of macaws flying over a jungle",
+      "color": "a colorful painting of the same macaws over the same jungle"
+    },
+    {
+      "greyscale": "a charcoal sketch of a tiger near a jungle stream",
+      "color": "a vivid painting of the same tiger near the same stream"
+    },
+    {
+      "greyscale": "a pencil drawing of an autumn maple forest path",
+      "color": "a colorful painting of the same maple forest path"
+    },
+    {
+      "greyscale": "a charcoal sketch of a bee among lavender flowers",
+      "color": "a vivid painting of the same bee among the same lavender"
+    },
+    {
+      "greyscale": "a pencil drawing of a whale breaching at sunset",
+      "color": "a colorful painting of the same whale at the same sunset"
+    },
+    {
+      "greyscale": "a charcoal sketch of a flamingo at a salt lake",
+      "color": "a vivid painting of the same flamingo at the same salt lake"
+    },
+    {
+      "greyscale": "a pencil drawing of an orchid in a rainforest",
+      "color": "a colorful painting of the same orchid in the same rainforest"
+    },
+    {
+      "greyscale": "a monochrome rendering of a red rose with dew",
+      "color": "a vivid rendering of the same rose with the same dew"
+    },
+    {
+      "greyscale": "a grey-toned painting of a coral garden",
+      "color": "a fully saturated painting of the exact same coral garden"
+    },
+    {
+      "greyscale": "a desaturated painting of a hummingbird on hibiscus",
+      "color": "a saturated painting of the same hummingbird on hibiscus"
+    },
+    {
+      "greyscale": "a monochrome painting of a tropical sunset over sea",
+      "color": "a vivid painting of the identical tropical sunset over sea"
+    },
+    {
+      "greyscale": "a greyscale drawing of a field of sunflowers",
+      "color": "a vivid drawing of the same field of sunflowers"
+    },
+    {
+      "greyscale": "a grey-toned sketch of a macaw in a fruiting tree",
+      "color": "a fully saturated sketch of the same macaw in the same tree"
+    },
+    {
+      "greyscale": "a desaturated watercolor of cherry blossoms over a path",
+      "color": "a vivid watercolor of the same blossoms over the same path"
+    },
+    {
+      "greyscale": "a monochrome sketch of a peacock beside a fountain",
+      "color": "a colorful sketch of the same peacock beside the same fountain"
+    },
+    {
+      "greyscale": "a grey-toned painting of monarch butterflies on trees",
+      "color": "a vivid painting of the same monarchs on the same trees"
+    },
+    {
+      "greyscale": "a desaturated oil of a reef teeming with life",
+      "color": "a vivid oil of the exact same reef teeming with life"
+    },
+    {
+      "greyscale": "a tonal sketch of a parrot mid-flight",
+      "color": "a vivid color sketch of the same parrot mid-flight"
+    },
+    {
+      "greyscale": "a grey study of a koi pond at peak lotus bloom",
+      "color": "a vivid study of the same pond at peak lotus bloom"
+    },
+    {
+      "greyscale": "a monochrome gouache of a bird of paradise flower",
+      "color": "a vivid gouache of the same bird of paradise flower"
+    },
+    {
+      "greyscale": "a washed-out painting of a sunset over the Maldives",
+      "color": "a vivid painting of the same sunset over the Maldives"
+    },
+    {
+      "greyscale": "a greyscale ink of a tiger lily on a stem",
+      "color": "a vivid color ink of the same tiger lily on the same stem"
+    },
+    {
+      "greyscale": "a desaturated pastel of a reef at golden hour",
+      "color": "a vivid pastel of the same reef at the same golden hour"
+    },
+    {
+      "greyscale": "a monochrome acrylic of a rainbow lorikeet on perch",
+      "color": "a vivid acrylic of the same lorikeet on the same perch"
+    },
+    {
+      "greyscale": "a grey-wash painting of a bougainvillea wall",
+      "color": "a vivid painting of the same bougainvillea wall"
+    },
+    {
+      "greyscale": "a desaturated painting of a peacock in an Indian garden",
+      "color": "a vivid painting of the same peacock in the same garden"
+    },
+    {
+      "greyscale": "a monochrome watercolor of autumn leaves in a forest",
+      "color": "a vivid watercolor of the same leaves in the same forest"
+    },
+    {
+      "greyscale": "a black and white oil of a rose with a bee",
+      "color": "a vivid oil of the same rose with the same bee"
+    },
+    {
+      "greyscale": "a desaturated gouache of a flamingo colony at dawn",
+      "color": "a vivid gouache of the same colony at the same dawn"
+    },
+    {
+      "greyscale": "a grey-toned ink wash of cherry blossoms over water",
+      "color": "a vivid ink wash of the same blossoms over the same water"
+    },
+    {
+      "greyscale": "a monochrome pastel of a coral reef from above",
+      "color": "a vivid pastel of the same reef from the same angle"
+    },
+    {
+      "greyscale": "a tonal value study of a hummingbird at hibiscus",
+      "color": "a fully saturated painting of the same hummingbird at hibiscus"
+    },
+    {
+      "greyscale": "a greyscale print of a peacock tail at full display",
+      "color": "a vivid print of the same peacock tail at full display"
+    },
+    {
+      "greyscale": "a desaturated painting of macaws over a rainforest",
+      "color": "a vivid painting of the same macaws over the same rainforest"
+    },
+    {
+      "greyscale": "a grey-toned acrylic of a blossom festival in Japan",
+      "color": "a vivid acrylic of the same festival in the same light"
+    },
+    {
+      "greyscale": "a monochrome drawing of a clownfish in an anemone",
+      "color": "a vivid drawing of the same clownfish in the same anemone"
+    },
+    {
+      "greyscale": "a desaturated oil of a sunflower field at noon",
+      "color": "a vivid oil of the same sunflower field at noon"
+    },
+    {
+      "greyscale": "a faded watercolor of a toucan in the Amazon",
+      "color": "a saturated watercolor of the same toucan in the Amazon"
+    },
+    {
+      "greyscale": "a pale pencil wash of a reef at high tide",
+      "color": "a vivid color wash of the same reef at high tide"
+    },
+    {
+      "greyscale": "a low-contrast painting of a rose garden at dusk",
+      "color": "a high-saturation painting of the same rose garden at dusk"
+    },
+    {
+      "greyscale": "a grey-scale painting of autumn foliage reflected in water",
+      "color": "a vivid painting of the same foliage reflected in water"
+    },
+    {
+      "greyscale": "a monochrome botanical of a passionflower in bloom",
+      "color": "a vivid botanical of the same passionflower in bloom"
+    },
+    {
+      "greyscale": "a desaturated painting of a butterfly garden in bloom",
+      "color": "a vivid painting of the same butterfly garden in bloom"
+    },
+    {
+      "greyscale": "a washed-out painting of a parrot in a cloud forest",
+      "color": "a vivid painting of the same parrot in the same forest"
+    },
+    {
+      "greyscale": "a grey-scale oil of a lotus pond in morning light",
+      "color": "a vivid oil of the same lotus pond in morning light"
+    },
+    {
+      "greyscale": "a monochrome sketch of a bee on a sunflower",
+      "color": "a vivid color sketch of the same bee on the same sunflower"
+    },
+    {
+      "greyscale": "a desaturated painting of a macaw at a fruiting fig",
+      "color": "a vivid painting of the same macaw at the same fig"
+    }
+  ]
+}

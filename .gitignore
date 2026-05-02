@@ -3,3 +3,7 @@
 /venv/
 .env
 
+/2400 run/
+
+# ignore images folder in notebook
+**/images/**

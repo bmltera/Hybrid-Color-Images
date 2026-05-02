@@ -1,0 +1,106 @@
+================================================================================
+DETAILED VLM EVALUATION ANALYSIS REPORT
+================================================================================
+
+1. EXECUTIVE SUMMARY
+----------------------------------------
+  Models evaluated: 11
+  Dataset: 177 image pairs, 3879 total predictions
+  Best performer:  ALIGN (0.701 accuracy)
+  Worst performer: Moondream2 (0.483 accuracy)
+  Avg grey accuracy:  0.681
+  Avg color accuracy: 0.554
+  Overall cue bias: Models favor greyscale cues (delta: 0.127)
+
+2. PER-MODEL PERFORMANCE
+----------------------------------------
+  Model                 Overall     Grey    Color    Delta       Bias
+  -------------------- -------- -------- -------- -------- ----------
+  ALIGN                   0.701    0.785    0.616   +0.169       Grey
+  SigLIP                  0.684    0.746    0.621   +0.124       Grey
+  LLaVA-1.6               0.667    0.802    0.531   +0.271       Grey
+  SmolVLM                 0.655    0.729    0.582   +0.147       Grey
+  Qwen2-VL                0.653    0.695    0.610   +0.085       Grey
+  GPT-4o-mini             0.644    0.689    0.599   +0.090       Grey
+  LLaVA-1.5               0.633    0.757    0.508   +0.249       Grey
+  CLIP                    0.630    0.802    0.458   +0.345       Grey
+  GPT-5.5                 0.540    0.497    0.584   -0.087      Color
+  BLIP-2                  0.500    0.435    0.565   -0.130      Color
+  Moondream2              0.483    0.548    0.418   +0.130       Grey
+
+  Generation (Semantic Similarity):
+    GPT-4o-mini          avg_sim: 0.607
+    Qwen2-VL             avg_sim: 0.587
+    LLaVA-1.5            avg_sim: 0.577
+    LLaVA-1.6            avg_sim: 0.568
+    SmolVLM              avg_sim: 0.486
+    GPT-5.5              avg_sim: 0.414
+    BLIP-2               avg_sim: 0.245
+    Moondream2           avg_sim: 0.089
+
+3. CUE BIAS ANALYSIS
+----------------------------------------
+  ALIGN: Strong GREYSCALE bias (+0.169). Model relies heavily on luminance cues.
+  BLIP-2: Strong COLOR bias (+0.130). Model relies heavily on chromatic cues.
+  CLIP: Strong GREYSCALE bias (+0.345). Model relies heavily on luminance cues.
+  GPT-4o-mini: Strong GREYSCALE bias (+0.090). Model relies heavily on luminance cues.
+  GPT-5.5: Strong COLOR bias (+0.087). Model relies heavily on chromatic cues.
+  LLaVA-1.5: Strong GREYSCALE bias (+0.249). Model relies heavily on luminance cues.
+  LLaVA-1.6: Strong GREYSCALE bias (+0.271). Model relies heavily on luminance cues.
+  Moondream2: Strong GREYSCALE bias (+0.130). Model relies heavily on luminance cues.
+  Qwen2-VL: Strong GREYSCALE bias (+0.085). Model relies heavily on luminance cues.
+  SigLIP: Strong GREYSCALE bias (+0.124). Model relies heavily on luminance cues.
+  SmolVLM: Strong GREYSCALE bias (+0.147). Model relies heavily on luminance cues.
+
+4. DIFFICULTY ANALYSIS
+----------------------------------------
+  Easy images (>80% models correct):   131
+  Medium images (40-80%):              136
+  Hard images (<40%):                  87
+
+  Hardest images (all models struggle):
+    0196c.png: acc=0.00, grey=candle, color=fish, quality=L
+    1803g.png: acc=0.00, grey=valley, color=crab, quality=L
+    1856c.png: acc=0.00, grey=broccoli, color=lake, quality=L
+    0100c.png: acc=0.09, grey=mushroom, color=manatee, quality=L
+    0853c.png: acc=0.09, grey=mushroom, color=garden, quality=L
+    1635g.png: acc=0.09, grey=table, color=switch, quality=M
+    0117c.png: acc=0.09, grey=vase, color=iguana, quality=M
+    0333g.png: acc=0.09, grey=cloud, color=turtle, quality=L
+    1638g.png: acc=0.09, grey=mop, color=tomato, quality=M
+    2108c.png: acc=0.09, grey=lion, color=beet, quality=L
+
+5. ARCHITECTURE COMPARISON
+----------------------------------------
+  Contrastive: avg accuracy = 0.671 (n=3 models)
+  Compact Multimodal (Idefics3): avg accuracy = 0.655 (n=1 models)
+  Instruction-Tuned (Dynamic Res): avg accuracy = 0.653 (n=1 models)
+  Instruction-Tuned LLM: avg accuracy = 0.650 (n=2 models)
+  Proprietary API: avg accuracy = 0.592 (n=2 models)
+  Generative (Q-Former): avg accuracy = 0.500 (n=1 models)
+  Compact Generative VLM: avg accuracy = 0.483 (n=1 models)
+
+6. QUALITY TIER ANALYSIS
+----------------------------------------
+  Quality L: 0.607 accuracy (2212 predictions)
+  Quality M: 0.618 accuracy (1230 predictions)
+  Quality H: 0.668 accuracy (437 predictions)
+  (L=Low quality illusion=easy to see through, H=High quality=hard to see through)
+
+7. MODEL AGREEMENT ANALYSIS
+----------------------------------------
+  Unanimous agreement: 4.2% of images
+    All correct: 12 images
+    All wrong:   3 images
+
+8. KEY FINDINGS & RECOMMENDATIONS
+----------------------------------------
+  1. ALIGN is the best-performing model overall (0.701).
+  2. Models generally show greyscale cue bias.
+  3. 87 images are universally difficult (<40% accuracy).
+  4. 131 images are universally easy (>80% accuracy).
+  5. High-quality illusions are easier (H=0.668 vs L=0.607).
+
+================================================================================
+END OF REPORT
+================================================================================
