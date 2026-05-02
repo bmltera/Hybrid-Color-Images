@@ -26,9 +26,9 @@ export const architectureRanking = [
 
 // Good examples: clear illusion, high quality, most models correct
 export const goodExamples = [
-  { id: '0003', grey: 'bottle', color: 'bird', quality: 'M' },
-  { id: '0010', grey: 'trumpet', color: 'fox', quality: 'H' },
-  { id: '0015', grey: 'guitar', color: 'frog', quality: 'H' },
+  { id: '0003', grey: 'bottle', color: 'kingfisher', quality: 'M' },
+  { id: '0010', grey: 'fan', color: 'chameleon', quality: 'H' },
+  { id: '0015', grey: 'tulip', color: 'moose', quality: 'H' },
 ]
 
 // Bad examples: both entities visible, models struggle

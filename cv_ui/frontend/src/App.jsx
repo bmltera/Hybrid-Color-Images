@@ -173,8 +173,8 @@ function IllusionShowcase() {
         <ImageComparison
           colorSrc={img('0010', 'c')}
           greySrc={img('0010', 'g')}
-          greyLabel="Trumpet"
-          colorLabel="Fox"
+          greyLabel="Fan"
+          colorLabel="Chameleon"
           quality="H"
         />
       </FadeUp>
