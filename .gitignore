@@ -5,5 +5,5 @@
 
 /2400 run/
 
-# ignore images folder in notebook
-**/images/**
+# ignore source images (too large for git)
+/cv_ui/images/
