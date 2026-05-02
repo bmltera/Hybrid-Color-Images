@@ -28,14 +28,14 @@ export const architectureRanking = [
 export const goodExamples = [
   { id: '0003', grey: 'bottle', color: 'kingfisher', quality: 'M' },
   { id: '0010', grey: 'fan', color: 'chameleon', quality: 'H' },
-  { id: '0015', grey: 'tulip', color: 'moose', quality: 'H' },
+  { id: '0005', grey: 'guitar', color: 'octopus', quality: 'H' },
 ]
 
 // Bad examples: both entities visible, models struggle
 export const badExamples = [
   { id: '0002', grey: 'violin', color: 'eagle', quality: 'L' },
   { id: '0100', grey: 'mushroom', color: 'manatee', quality: 'L' },
-  { id: '0117', grey: 'vase', color: 'iguana', quality: 'M' },
+  { id: '0012', grey: 'feather', color: 'tiger', quality: 'L' },
 ]
 
 export const qualityTiers = [
