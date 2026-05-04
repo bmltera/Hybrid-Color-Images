@@ -1,0 +1,26 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Evaluation images (too large for git)
+data/
+
+# Evaluation results (large CSVs, charts, zips)
+results_old/
+eval_old/
+*.zip
+
+# Backup dataset JSONs (large)
+backup/

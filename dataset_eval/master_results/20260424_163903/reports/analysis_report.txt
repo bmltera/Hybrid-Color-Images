@@ -1,0 +1,93 @@
+================================================================================
+DETAILED VLM EVALUATION ANALYSIS REPORT
+================================================================================
+
+1. EXECUTIVE SUMMARY
+----------------------------------------
+  Models evaluated: 7
+  Dataset: 177 image pairs, 2478 total predictions
+  Best performer:  SigLIP (0.684 accuracy)
+  Worst performer: BLIP-2 (0.500 accuracy)
+  Avg grey accuracy:  0.707
+  Avg color accuracy: 0.559
+  Overall cue bias: Models favor greyscale cues (delta: 0.148)
+
+2. PER-MODEL PERFORMANCE
+----------------------------------------
+  Model                 Overall     Grey    Color    Delta       Bias
+  -------------------- -------- -------- -------- -------- ----------
+  SigLIP                  0.684    0.746    0.621   +0.124       Grey
+  LLaVA-1.6               0.667    0.802    0.531   +0.271       Grey
+  GPT-4o-mini             0.667    0.712    0.621   +0.090       Grey
+  Qwen2-VL                0.653    0.695    0.610   +0.085       Grey
+  LLaVA-1.5               0.633    0.757    0.508   +0.249       Grey
+  CLIP                    0.630    0.802    0.458   +0.345       Grey
+  BLIP-2                  0.500    0.435    0.565   -0.130      Color
+
+  Generation (Semantic Similarity):
+    GPT-4o-mini          avg_sim: 0.613
+    Qwen2-VL             avg_sim: 0.587
+    LLaVA-1.5            avg_sim: 0.577
+    LLaVA-1.6            avg_sim: 0.568
+    BLIP-2               avg_sim: 0.245
+
+3. CUE BIAS ANALYSIS
+----------------------------------------
+  BLIP-2: Strong COLOR bias (+0.130). Model relies heavily on chromatic cues.
+  CLIP: Strong GREYSCALE bias (+0.345). Model relies heavily on luminance cues.
+  GPT-4o-mini: Strong GREYSCALE bias (+0.090). Model relies heavily on luminance cues.
+  LLaVA-1.5: Strong GREYSCALE bias (+0.249). Model relies heavily on luminance cues.
+  LLaVA-1.6: Strong GREYSCALE bias (+0.271). Model relies heavily on luminance cues.
+  Qwen2-VL: Strong GREYSCALE bias (+0.085). Model relies heavily on luminance cues.
+  SigLIP: Strong GREYSCALE bias (+0.124). Model relies heavily on luminance cues.
+
+4. DIFFICULTY ANALYSIS
+----------------------------------------
+  Easy images (>80% models correct):   140
+  Medium images (40-80%):              137
+  Hard images (<40%):                  77
+
+  Hardest images (all models struggle):
+    0333g.png: acc=0.00, grey=cloud, color=turtle, quality=L
+    0196c.png: acc=0.00, grey=candle, color=fish, quality=L
+    0269c.png: acc=0.00, grey=onion, color=pelican, quality=L
+    1058g.png: acc=0.00, grey=stones, color=mandala, quality=L
+    0853c.png: acc=0.00, grey=mushroom, color=garden, quality=L
+    1803g.png: acc=0.00, grey=valley, color=crab, quality=L
+    1856c.png: acc=0.00, grey=broccoli, color=lake, quality=L
+    1988c.png: acc=0.00, grey=pencil, color=dill, quality=L
+    1802c.png: acc=0.00, grey=flower, color=splash, quality=M
+    2347c.png: acc=0.00, grey=bucket, color=hill, quality=L
+
+5. ARCHITECTURE COMPARISON
+----------------------------------------
+  Proprietary API: avg accuracy = 0.667 (n=1 models)
+  Contrastive: avg accuracy = 0.657 (n=2 models)
+  Instruction-Tuned (Dynamic Res): avg accuracy = 0.653 (n=1 models)
+  Instruction-Tuned LLM: avg accuracy = 0.650 (n=2 models)
+  Generative (Q-Former): avg accuracy = 0.500 (n=1 models)
+
+6. QUALITY TIER ANALYSIS
+----------------------------------------
+  Quality L: 0.626 accuracy (1414 predictions)
+  Quality M: 0.628 accuracy (784 predictions)
+  Quality H: 0.686 accuracy (280 predictions)
+  (L=Low quality illusion=easy to see through, H=High quality=hard to see through)
+
+7. MODEL AGREEMENT ANALYSIS
+----------------------------------------
+  Unanimous agreement: 18.9% of images
+    All correct: 54 images
+    All wrong:   13 images
+
+8. KEY FINDINGS & RECOMMENDATIONS
+----------------------------------------
+  1. SigLIP is the best-performing model overall (0.684).
+  2. Models generally show greyscale cue bias.
+  3. 77 images are universally difficult (<40% accuracy).
+  4. 140 images are universally easy (>80% accuracy).
+  5. High-quality illusions are easier (H=0.686 vs L=0.626).
+
+================================================================================
+END OF REPORT
+================================================================================

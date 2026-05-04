@@ -19,23 +19,24 @@ We generated 2,400 candidate image pairs using Factorized Diffusion and manually
 |----------|-----|
 | Project Website | https://hybrid-color-images.vercel.app/ |
 | Dataset (HuggingFace) | https://huggingface.co/datasets/bmltera/color-hybrid-illusions |
-| Project Artifacts (SJSU) | https://drive.google.com/drive/folders/1WOsYUHJopPhN9KRBTWWvJ2kxmF5EImUg?usp=sharing |
 
 ## Repository Structure
 
 ```
 .
-├── notebook/                    # Image generation scripts and notebooks
-│   ├── generate.py              # Main generation script
-│   ├── generation*.ipynb        # Jupyter notebooks for generation runs
-│   └── prompt_pairs_*.json      # Prompt pair definitions
+├── dataset_generation/           # Pipeline for creating color hybrid images
+│   ├── notebook/                 # Generation scripts
+│   ├── prompts/                  # Prompt pairs for generation
+│   └── outputs/                  # Generated images (git ignored)
 │
-├── cv_ui/                       # Project website
-    ├── frontend/             
-    ├── data/                    # Raw evaluation data and generated charts
-        ├── raw_data/            # CSV results from model evaluations
-        ├── charts/              # Generated chart images
-        └── reports/             # Analysis reports
+├── dataset_eval/                 # VLM evaluation pipeline
+│   ├── master_eval.py            # Main evaluation script
+│   ├── data/                     # Final 177 pair dataset
+│   └── master_results/           # Generated CSVs, charts, and reports
+│
+└── cv_ui/                        # Project website
+    ├── frontend/                 # Interactive React + Vite app
+    └── data/                     # Data and charts used in the UI
 ```
 
 
@@ -44,7 +45,7 @@ We generated 2,400 candidate image pairs using Factorized Diffusion and manually
 The generation pipeline requires a CUDA-capable GPU and uses DeepFloyd IF through the Factorized Diffusion framework.
 
 ```bash
-cd notebook
+cd dataset_generation/notebook
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
 pip install -r requirements.txt
 ```
@@ -56,6 +57,23 @@ python generate.py
 ```
 
 Or use `generate_resume.py` to resume from a specific index if the process gets interrupted.
+
+### VLM Evaluation
+
+The evaluation pipeline lives in `dataset_eval/` and runs 11 models across the 177 image pair dataset. Models include CLIP, SigLIP, ALIGN, BLIP-2, LLaVA-1.5, LLaVA-1.6, GPT-4o-mini, GPT-5.5, SmolVLM, Qwen2-VL, and Moondream2.
+
+Each model is evaluated in two modes:
+- **Classification**: forced-choice between the two entity labels (accuracy metric)
+- **Generation**: open-ended VQA scored via cosine similarity with SentenceTransformer
+
+To run the full pipeline:
+
+```bash
+cd dataset_eval
+python master_eval.py
+```
+
+You can toggle individual models on/off via the boolean flags at the top of `master_eval.py`. Results (CSVs, charts, and a text analysis report) are saved to `master_results/<timestamp>/`.
 
 ### Project Website
 
@@ -71,7 +89,7 @@ The site is deployed at https://hybrid-color-images.vercel.app/.
 
 ### Dataset
 
-The curated dataset of 177 image pairs is available on HuggingFace:
+The dataset of 177 image pairs is available on HuggingFace:
 
 https://huggingface.co/datasets/bmltera/color-hybrid-illusions
 

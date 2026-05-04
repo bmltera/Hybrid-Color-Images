@@ -1,9 +1,21 @@
-# Ignore generated outputs in any outputs folder
-**/outputs/**
-/venv/
+# Python
+**/venv/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Environment
 .env
 
+# Generated outputs (any directory named outputs)
+**/outputs/**
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Legacy generation run
 /2400 run/
 
-# ignore source images (too large for git)
+# Source images (too large for git)
 /cv_ui/images/
