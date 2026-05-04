@@ -133,7 +133,6 @@ function ShowcaseCard({ id, grey, color, quality }) {
         onPointerDown={(e) => { setDragging(true); updatePos(e.clientX); containerRef.current.setPointerCapture(e.pointerId) }}
         onPointerMove={(e) => dragging && updatePos(e.clientX)}
         onPointerUp={() => setDragging(false)}
-        onPointerLeave={() => setDragging(false)}
       >
         <img className="color-img" src={img(id, 'c')} alt={color} loading="lazy" />
         <img

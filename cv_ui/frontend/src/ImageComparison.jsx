@@ -28,7 +28,6 @@ export default function ImageComparison({ colorSrc, greySrc, greyLabel, colorLab
         onPointerDown={onPointerDown}
         onPointerMove={onPointerMove}
         onPointerUp={onPointerUp}
-        onPointerLeave={onPointerUp}
       >
         <img className="color-img" src={colorSrc} alt={colorLabel || 'Color view'} loading="lazy" />
         <img

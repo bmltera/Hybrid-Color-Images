@@ -420,6 +420,7 @@ img {
   cursor: ew-resize;
   user-select: none;
   -webkit-user-select: none;
+  touch-action: none;
 }
 
 .comparison-wrapper img {
@@ -557,6 +558,7 @@ img {
   cursor: ew-resize;
   user-select: none;
   -webkit-user-select: none;
+  touch-action: none;
 }
 
 .showcase-item .showcase-image-wrap img {
