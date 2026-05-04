@@ -18,16 +18,27 @@ const GREY_COLOR = '#94a3b8'
 const COLOR_COLOR = '#c084fc'
 
 function Nav() {
+  const [menuOpen, setMenuOpen] = React.useState(false)
+
+  const closeMenu = () => setMenuOpen(false)
+
   return (
     <nav className="nav">
       <div className="nav-inner">
         <div className="nav-logo">Color Hybrids × VLMs</div>
-        <ul className="nav-links">
-          <li><a href="#overview">Overview</a></li>
-          <li><a href="#illusions">Illusions</a></li>
-          <li><a href="#results">Results</a></li>
-          <li><a href="#findings">Findings</a></li>
-          <li><a href="https://huggingface.co/datasets/bmltera/color-hybrid-illusions" target="_blank" rel="noopener noreferrer" className="nav-dataset">Dataset ↗</a></li>
+        <button
+          className={`hamburger ${menuOpen ? 'open' : ''}`}
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label="Toggle menu"
+        >
+          <span /><span /><span />
+        </button>
+        <ul className={`nav-links ${menuOpen ? 'nav-open' : ''}`}>
+          <li><a href="#overview" onClick={closeMenu}>Overview</a></li>
+          <li><a href="#illusions" onClick={closeMenu}>Illusions</a></li>
+          <li><a href="#results" onClick={closeMenu}>Results</a></li>
+          <li><a href="#findings" onClick={closeMenu}>Findings</a></li>
+          <li><a href="https://huggingface.co/datasets/bmltera/color-hybrid-illusions" target="_blank" rel="noopener noreferrer" className="nav-dataset" onClick={closeMenu}>Dataset ↗</a></li>
         </ul>
       </div>
     </nav>
