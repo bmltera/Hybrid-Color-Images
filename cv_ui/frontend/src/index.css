@@ -948,8 +948,12 @@ img {
 
 /* ====== RESPONSIVE ====== */
 @media (max-width: 768px) {
-  .nav-links {
+  .nav-links li:not(:last-child) {
     display: none;
+  }
+
+  .nav-links {
+    gap: 0;
   }
 
   .hero-stats {
