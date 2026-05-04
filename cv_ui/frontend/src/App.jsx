@@ -27,6 +27,7 @@ function Nav() {
           <li><a href="#illusions">Illusions</a></li>
           <li><a href="#results">Results</a></li>
           <li><a href="#findings">Findings</a></li>
+          <li><a href="https://huggingface.co/datasets/bmltera/color-hybrid-illusions" target="_blank" rel="noopener noreferrer" className="nav-dataset">Dataset ↗</a></li>
         </ul>
       </div>
     </nav>
@@ -451,7 +452,7 @@ function Footer() {
   return (
     <footer className="footer">
       <p>
-        Evaluating Entity Recognition in Hybrid Color Images with Vision Language Models
+        Entity Recognition with Vision Language Models on Diffusion-Based Color Hybrid Illusions
       </p>
       <p style={{ marginTop: '0.5rem', color: 'var(--text-muted)' }}>
         Bill Li · Paul Junver Soriano · Rahul Koonantavida

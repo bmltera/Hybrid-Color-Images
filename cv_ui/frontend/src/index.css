@@ -121,6 +121,21 @@ img {
   color: var(--text-primary);
 }
 
+.nav-links a.nav-dataset {
+  color: var(--text-accent);
+  padding: 0.25rem 0.7rem;
+  border: 1px solid rgba(139, 92, 246, 0.25);
+  border-radius: 100px;
+  font-size: 0.8rem;
+  transition: all 0.3s ease;
+}
+
+.nav-links a.nav-dataset:hover {
+  background: rgba(139, 92, 246, 0.1);
+  border-color: rgba(139, 92, 246, 0.5);
+  color: #c4b5fd;
+}
+
 /* ====== HERO ====== */
 .hero {
   min-height: 100vh;
